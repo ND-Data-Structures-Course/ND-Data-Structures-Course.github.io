@@ -33,8 +33,35 @@
 			"image1":" "
 		}
 	},
-	3:{},
-	4:{},
+	3:{
+		1:{
+			"Title":"Singly Linked Lists and Stacks",
+			"para1":" ",
+			"image1":" "
+		},
+		2:{
+			"Title":"Doubly Linked Lists, Queues, Deques, and Priority Queues",
+			"para1":" ",
+			"image1":" "
+		},
+		3:{
+			"Title":"Binary Search Trees",
+			"para1":" ",
+			"image1":" "
+		}
+	},
+	4:{ 
+		1:{
+			"Title":"C++ Introduction and the Standard Template Library",
+			"para1":" ",
+			"image1":" "
+		},
+		2:{
+			"Title":"C++ Structs, Constructors, Destructors, and Class Templates",
+			"para1":" ",
+			"image1":" "
+		}
+	},
 	5:{},
 	6:{},
 	7:{},
