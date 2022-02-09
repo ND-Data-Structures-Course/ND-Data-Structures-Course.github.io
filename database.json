@@ -37,6 +37,49 @@
 	4:{},
 	5:{},
 	6:{},
-	7:{},
-	8:{}
+	7:{
+		1:{
+			"Title":"B-Trees (2-3, 2-3-4 Trees)",
+			"para1":" ",
+			"image1":" "
+		},
+		2:{
+			"Title":"Left-Leaning Red-Black Trees",
+			"para1":" ",
+			"image1":" "
+		},
+		3:{
+			"Title":"Heaps and Probabilistic Treaps",
+			"para1":" ",
+			"image1":" "
+		},
+		4:{
+			"Title":"Compression",
+			"para1":" ",
+			"image1":" "
+		}	
+	},
+	8:{
+		1:{
+			"Title":"C++ Classes, Operators, and Inheritance",
+			"para1":" ",
+			"image1":" "
+		},
+		2:{
+			"Title":"Splay Trees",
+			"para1":" ",
+			"image1":" "
+		},
+		3:{
+			"Title":"Prefix Operators and Tries",
+			"para1":" ",
+			"image1":" "
+		},
+		4:{
+			"Title":"Bloom Filters and Approximate Membership",
+			"para1":" ",
+			"image1":" "
+		}	
+		
+	}
 }
