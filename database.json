@@ -62,8 +62,45 @@
 			"image1":" "
 		}
 	},
-	5:{},
-	6:{},
+	5:{
+		1:{
+			"Title":"Big-O Notation and Asymptotic Analysis",
+			"para1":" ",
+			"image1":" "
+		},
+        2:{
+            "Title":"Recursion Revisited: Complete Search and Backtracking",
+            "para1":" ",
+            "image1":" "
+        }
+        3:{
+            "Title":"Hashing",
+            "para1":" ",
+            "image1":" "
+        }
+        4:{
+            "Title":"Compression",
+            "para1":" ",
+            "image1":" "
+        }
+    },
+	6:{
+        1:{
+            "Title":"Graphs and Graph Traversals",
+            "para1":" ",
+            "image1":" "
+        }
+        2:{
+            "Title":"Topological Sorting and Minimum Spanning Trees",
+            "para1":" ",
+            "image1":" "
+        }
+        3:{
+            "Title":"Dijkstra's Algorithm and A* Algorithm",
+            "para1":" ",
+            "image1":" "
+        }
+    },
 	7:{
 		1:{
 			"Title":"B-Trees (2-3, 2-3-4 Trees)",
