@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 	</head>
 	<body>
 	<!-- Navbar with search facility -->
@@ -50,10 +50,10 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="learn.html" class="nav-link">Learn</a></li>
-	        	<li class="nav-item"><a href="practice.html" class="nav-link">Practice</a></li>
-	        	<li class="nav-item"><a href="visualize.html" class="nav-link">Visualize</a></li>
-	            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href=learn class="nav-link">Learn</a></li>
+	        	<li class="nav-item"><a href=practice class="nav-link">Practice</a></li>
+	        	<li class="nav-item"><a href=visualize class="nav-link">Visualize</a></li>
+	            <li class="nav-item"><a href=contact class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -61,11 +61,54 @@
 	</section>
 	<!-- END nav -->
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
 
+	<!-- section divide -->
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="{{ url_for('static', filename='learn_page.jpeg') }}">
+                    </div>
+                    <h3 class="title">Learn</h3>
+                    <span class="post">Build a solid understanding of data structures through videos, animations, and explanations.</span>
+                </div>
+            </div>
+     
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="{{ url_for('static', filename='practice_page.jpg') }}">
+                    </div>
+                    <h3 class="title">Practice</h3>
+                    <span class="post">Reinforce data structure understanding through repeated exercises and implementations.</span>
+                </div>
+            </div>
+    
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="{{ url_for('static', filename='visualize_page.jpeg') }}">
+                    </div>
+                    <h3 class="title">Visualize</h3>
+                    <span class="post">Deepen understanding of how data structures work in a visual sense through animations and videos.</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="{{ url_for('static', filename='contact_page.jpeg') }}">
+                    </div>
+                    <h3 class="title">Contact</h3>
+                    <span class="post">Found a bug? Have questions about Data Structures? Reach out to us and we will be happy to help!</span>
+                </div>
+            </div>
+
+        </div>
+	<script src="{{ url_for('static', filename='js/jquery_min.js') }}"></script>
+  	<script src="{{ url_for('static', filename='js/popper.js') }}"></script>
+  	<script src="{{ url_for('static', filename='js/bootstrap_min.js') }}"></script>
+  	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 	</body>
 </html>
 
