@@ -39,9 +39,9 @@ def check_valid(data):
 
 
 @app.route('/learn', methods=['POST','GET']) #for learn page
-def learn_page():
+def ast():
 	# add return statement here to render template
-	return render_template("learn.html") 
+	pass
 	''' Sample Code
     print("Webpage change initiated")
     if request.method == 'GET': # GET request is sent when html wants some information from the python script
