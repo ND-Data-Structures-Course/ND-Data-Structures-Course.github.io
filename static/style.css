@@ -79,6 +79,37 @@
 
 /* end of custom section for index.html */
 
+/* custom CSS for learn.html page */
+.learn{
+   align-self: center;
+   padding: 20px 15px 30px;
+   background: #fff;
+   border-radius: 15px;
+   text-align: center;
+}
+.learn table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.learn tr {
+  width: 100%;
+}
+
+.learn td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.learn tr:nth-child(even) {
+
+  background-color: #dddddd;
+}
+
+/* end of custom css for learn section */
+
 :root {
   --blue: #0C2340; /*#007bff; */
   --indigo: #6610f2;
