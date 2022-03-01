@@ -58,3 +58,14 @@ def contact_page():
         return render_template('ast.html', showast = 0)
     if request.method == 'POST':
         return render_template('ast.html', showast = 1)'''
+
+@app.route('/practice', methods=['POST','GET']) #for practice page
+def practice_page():
+	# add return statement here to render template
+	return render_template("practice.html")
+	''' Sample Code
+    print("Webpage change initiated")
+    if request.method == 'GET': # GET request is sent when html wants some information from the python script
+        return render_template('ast.html', showast = 0)
+    if request.method == 'POST':
+        return render_template('ast.html', showast = 1)'''
