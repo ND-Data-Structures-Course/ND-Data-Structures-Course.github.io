@@ -22,8 +22,9 @@
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
-    background: #17bebb;
+    background: #1751be;
     border-radius: 50%;
+    cursor:pointer;
 }
 .pic img{
     width: 100%;
