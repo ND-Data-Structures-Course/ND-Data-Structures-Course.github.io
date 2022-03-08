@@ -26,7 +26,7 @@
 	{"Unit_Title":"Unit 4 - Introduction to C++",
          "Chapters":[
          	{"Title":"C++ Introduction and the Standard Template Library","data_URL":" "},
-         	{"Title":"C++ Structs, Constructors, Destructors, and Class Templates","data_URL":" "},
+         	{"Title":"C++ Structs, Constructors, Destructors, and Class Templates","data_URL":" "}
      	]
 	},
 
@@ -43,7 +43,7 @@
          "Chapters":[
          	{"Title":"Graphs and Graph Traversals","data_URL":" "},
          	{"Title":"Topological Sorting and Minimum Spanning Trees","data_URL":" "},
-         	{"Title":"Dijkstra's Algorithm and A* Algorithm","data_URL":" "},
+         	{"Title":"Dijkstra's Algorithm and A* Algorithm","data_URL":" "}
      	]
 	},
 
