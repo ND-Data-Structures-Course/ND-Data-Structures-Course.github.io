@@ -1,5 +1,13 @@
 [
-	"Unit 1":{
+	{"Unit_Title":"Unit 1 - Introduction"},
+	{"Unit_Title": "Unit 2"},
+	{"Unit_Title": "Unit 3"},
+	{"Unit_Title": "Unit 4"},
+	{"Unit_Title": "Unit 5"},
+	{"Unit_Title": "Unit 6"},
+	{"Unit_Title": "Unit 7"},
+	{"Unit_Title": "Unit 8"}
+	/*"Unit 1":{
 		"Chapter 1":{
 			"Title":"Introduction to Programming Abstractions and Data Structures",
 			"para1":" ",
@@ -10,7 +18,7 @@
 			"para1":" ",
 			"image1":" "
 		}
-	},
+	}
 	"Unit 2":{
 		"Chapter 1":{
 			"Title":"Advanced Arrays and Pass By Reference",
@@ -145,5 +153,5 @@
 			"image1":" "
 		}	
 		
-	}
+	}*/
 ]
