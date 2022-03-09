@@ -2,7 +2,7 @@ import requests
 import json 
 import os
 import sys
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
@@ -35,6 +35,14 @@ def check_valid(data):
     for attribute in defaults:
         if attribute not in data:
             data[attribute] = defaults[attribute]'''
+
+@app.route('/watchvideo', methods=['POST','GET'])
+def watchvideo():
+    if request.method == 'POST':
+        #temp = request.form.get('WATCH')
+        return redirect('https://youtube.com/') # TOD0 - replace with link to the required Youtube playlist
+    else:
+        return render_template("index.html")
 
 
 @app.route('/learn', methods=['POST','GET']) #for learn page
