@@ -1,149 +1,67 @@
-{
-	"Unit 1":{
-		"Chapter 1":{
-			"Title":"Introduction to Programming Abstractions and Data Structures",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 2":{
-			"Title":"Void Pointers and Memory Layout Basics",
-			"para1":" ",
-			"image1":" "
-		}
+[
+	{"Unit_Title":"Unit 1 - Introduction to Memory",
+         "Chapters":[
+         	{"Title":"Introduction to Programming Abstractions and Data Structures","data_URL":" "},
+         	{"Title":"Void Pointers and Memory Layout Basics","data_URL":" "}
+     	]
 	},
-	"Unit 2":{
-		"Chapter 1":{
-			"Title":"Advanced Arrays and Pass By Reference",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 2":{
-			"Title":"Pointers to Pointers, C Structs and and Vectors",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 3":{
-			"Title":"Recursion and Dynamic Programming Introduction",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 4":{
-			"Title":"Basic Sorts and Quick Sort",
-			"page1":" ",
-			"image1":" "
-		}
+
+	{"Unit_Title":"Unit 2 - Introduction to Structures",
+         "Chapters":[
+         	{"Title":"Advanced Arrays and Pass By Reference","data_URL":" "},
+         	{"Title":"Pointers to Pointers, C Structs and and Vectors","data_URL":" "},
+         	{"Title":"Recursion and Dynamic Programming Introduction","data_URL":" "},
+         	{"Title":"Recursion and Dynamic Programming Introduction","data_URL":" "}
+     	]
 	},
-	"Unit 3":{
-		"Chapter 1":{
-			"Title":"Singly Linked Lists and Stacks",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 2":{
-			"Title":"Doubly Linked Lists, Queues, Deques, and Priority Queues",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 3":{
-			"Title":"Binary Search Trees",
-			"para1":" ",
-			"image1":" "
-		}
+
+	{"Unit_Title":"Unit 3 - Advanced Data Structures",
+         "Chapters":[
+         	{"Title":"Singly Linked Lists and Stacks","data_URL":" "},
+         	{"Title":"Doubly Linked Lists, Queues, Deques, and Priority Queues","data_URL":" "},
+         	{"Title":"Binary Search Trees","data_URL":" "}
+     	]
 	},
-	"Unit 4":{ 
-		"Chapter 1":{
-			"Title":"C++ Introduction and the Standard Template Library",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 2":{
-			"Title":"C++ Structs, Constructors, Destructors, and Class Templates",
-			"para1":" ",
-			"image1":" "
-		}
+
+	{"Unit_Title":"Unit 4 - Introduction to C++",
+         "Chapters":[
+         	{"Title":"C++ Introduction and the Standard Template Library","data_URL":" "},
+         	{"Title":"C++ Structs, Constructors, Destructors, and Class Templates","data_URL":" "}
+     	]
 	},
-	"Unit 5":{
-		"Chapter 1":{
-			"Title":"Big-O Notation and Asymptotic Analysis",
-			"para1":" ",
-			"image1":" "
-		},
-        "Chapter 2":{
-            "Title":"Recursion Revisited: Complete Search and Backtracking",
-            "para1":" ",
-            "image1":" "
-        },
-        "Chapter 3":{
-            "Title":"Hashing",
-            "para1":" ",
-            "image1":" "
-        },
-        "Chapter 4":{
-            "Title":"Compression",
-            "para1":" ",
-            "image1":" "
-        }
-    },
-	"Unit 6":{
-        "Chapter 1":{
-            "Title":"Graphs and Graph Traversals",
-            "para1":" ",
-            "image1":" "
-        },
-        "Chapter 2":{
-            "Title":"Topological Sorting and Minimum Spanning Trees",
-            "para1":" ",
-            "image1":" "
-        },
-        "Chapter 3":{
-            "Title":"Dijkstra's Algorithm and A* Algorithm",
-            "para1":" ",
-            "image1":" "
-        }
-    },
-	"Unit 7":{
-		"Chapter 1":{
-			"Title":"B-Trees (2-3, 2-3-4 Trees)",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 2":{
-			"Title":"Left-Leaning Red-Black Trees",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 3":{
-			"Title":"Heaps and Probabilistic Treaps",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 4":{
-			"Title":"Compression",
-			"para1":" ",
-			"image1":" "
-		}	
+
+	{"Unit_Title":"Unit 5 - INSERT TITLE HERE",
+         "Chapters":[
+         	{"Title":"Big-O Notation and Asymptotic Analysis","data_URL":" "},
+         	{"Title":"Recursion Revisited: Complete Search and Backtracking","data_URL":" "},
+         	{"Title":"Hashing","data_URL":" "},
+         	{"Title":"Compression","data_URL":" "}
+     	]
 	},
-	"Unit 8":{
-		"Chapter 1":{
-			"Title":"C++ Classes, Operators, and Inheritance",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 2":{
-			"Title":"Splay Trees",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 3":{
-			"Title":"Prefix Operators and Tries",
-			"para1":" ",
-			"image1":" "
-		},
-		"Chapter 4":{
-			"Title":"Bloom Filters and Approximate Membership",
-			"para1":" ",
-			"image1":" "
-		}	
-		
+
+	{"Unit_Title":"Unit 6 - Graphs and Transversal Algorithms",
+         "Chapters":[
+         	{"Title":"Graphs and Graph Traversals","data_URL":" "},
+         	{"Title":"Topological Sorting and Minimum Spanning Trees","data_URL":" "},
+         	{"Title":"Dijkstra's Algorithm and A* Algorithm","data_URL":" "}
+     	]
+	},
+
+	{"Unit_Title":"Unit 7 - Trees and Heaps",
+         "Chapters":[
+         	{"Title":"B-Trees (2-3, 2-3-4 Trees)","data_URL":" "},
+         	{"Title":"Left-Leaning Red-Black Trees","data_URL":" "},
+         	{"Title":"Heaps and Probabilistic Treaps","data_URL":" "},
+         	{"Title":"Compression","data_URL":" "}
+     	]
+	},
+
+	{"Unit_Title":"Unit 8 - INSERT TITLE HERE",
+         "Chapters":[
+         	{"Title":"C++ Classes, Operators, and Inheritance","data_URL":" "},
+         	{"Title":"Splay Trees","data_URL":" "},
+         	{"Title":"Prefix Operators and Tries","data_URL":" "},
+         	{"Title":"Bloom Filters and Approximate Membership","data_URL":" "}
+     	]
 	}
-}
+]

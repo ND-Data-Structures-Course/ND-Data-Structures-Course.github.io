@@ -6,8 +6,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-URL = "URL to database"
-
+URL = "https://jsonkeeper.com/b/E5YJ"
 @app.route('/', methods=['POST','GET'])
 def index():
 	return render_template("index.html") #will need to edit later
@@ -40,32 +39,19 @@ def check_valid(data):
 
 @app.route('/learn', methods=['POST','GET']) #for learn page
 def learn_page():
+	response = requests.get(URL)
+	data = response.json()
+	print(data)
 	# add return statement here to render template
-	return render_template("learn.html") 
-	''' Sample Code
-    print("Webpage change initiated")
-    if request.method == 'GET': # GET request is sent when html wants some information from the python script
-        return render_template('ast.html', showast = 0)
-    if request.method == 'POST':
-        return render_template('ast.html', showast = 1)'''
+	return render_template("learn.html",chapters=data) 
+
 
 @app.route('/contact', methods=['POST','GET']) #for contact page
 def contact_page():
-	# add return statement here to render template
 	return render_template("contact.html") 
-	''' Sample Code
-    if request.method == 'GET': # GET request is sent when html wants some information from the python script
-        return render_template('ast.html', showast = 0)
-    if request.method == 'POST':
-        return render_template('ast.html', showast = 1)'''
+
 
 @app.route('/practice', methods=['POST','GET']) #for practice page
 def practice_page():
-	# add return statement here to render template
 	return render_template("practice.html")
-	''' Sample Code
-    print("Webpage change initiated")
-    if request.method == 'GET': # GET request is sent when html wants some information from the python script
-        return render_template('ast.html', showast = 0)
-    if request.method == 'POST':
-        return render_template('ast.html', showast = 1)'''
+
