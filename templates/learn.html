@@ -61,25 +61,42 @@
 	  </nav>
 	</section>
 	<!-- END nav -->
-	<section class="learn">
-	<form method="post" action="/watchvideo">
-	<table>
+	<section class="learn" style="overflow-x:auto;">
+	<center>
+	<table class="table" style="width: fit-content;border-radius: 50px;">
 		{% for unit in chapters %}
-  		<th >
+  		<th colspan="3" style="  text-align: center;background-color: #04AA6D;color: white;">
   			<center>
   			{{unit.Unit_Title}}
   			</center>
   		</th>
-  			{% for chap in unit.Chapters %}
-  			<tr>
-    		<td>{{chap.Title}}</td>
-    		<td><input type="submit" value="{{chap.title}}" name="WATCH"/></td>
-    		<td>Read More</td>
-  			</tr>
-  			{% endfor %}
-		
-		 {% endfor %}
+  		{% for chap in unit.Chapters %}
+  		<tr>
+    		<td class="title">
+    			<center>
+    				{{chap.Title}}
+    			</center>
+    		</td>
+    		<td class="watch">
+    			<center>
+					<form action="{{chap.video_URL}}" method="get" target="_blank">
+         					<button type="submit" style="border-radius: 12px;background-color: #0C2340;color: white;">WATCH</button>
+         			</form>
+				</center>
+    		</td>
+    		<td class="read">
+    			<center>
+    				<form action="/learn" method="POST">
+    				<input type='hidden' name='id' value='{{chap.unique_id}}'/>
+    				<input class='read' type='submit' value='read' style="border-radius: 12px;background-color: #0C2340;color: white;"/>
+    				</form>
+    			</center>
+    		</td>
+  		</tr>
+  		{% endfor %}
+		{% endfor %}
 	</table>
+	</center>
 	</section>
 
   <script src="{{ url_for('static', filename='js/jquery_min.js') }}"></script>
