@@ -59,50 +59,35 @@
 	      </div>
 	    </div>
 	  </nav>
+
+	  <a href=learn class="nav-link">BACK</a></li>
 	</section>
 	<!-- END nav -->
-	<section class="learn" style="overflow-x:auto;">
-	<center>
-	<table class="table" style="width: 90%;border-radius: 50px;">
-		{% for unit in chapters %}
-  		<th colspan="3" style="  text-align: center;background-color: #04AA6D;color: white;">
-  			<center>
-  			{{unit.Unit_Title}}
-  			</center>
-  		</th>
-  		{% for chap in unit.Chapters %}
-  		<tr>
-    		<td class="title">
-    			<center>
-    				{{chap.Title}}
-    			</center>
-    		</td>
-    		<td class="watch">
-    			<center>
-					<form action="{{chap.video_URL}}" method="get" target="_blank">
-         					<button type="submit" style="border-radius: 12px;background-color: #0C2340;color: white;width: 100%;border-color: #0C2340;">WATCH</button>
-         			</form>
-				</center>
-    		</td>
-    		<td class="read">
-    			<center>
-    				<form action="/learn" method="POST">
-    				<input type='hidden' name='id' value='{{chap.unique_id}}'/>
-    				<input class='read' type='submit' value='READ' style="border-radius: 12px;background-color: #0C2340;color: white;width: 100%;border-color: #0C2340;"/>
-    				</form>
-    			</center>
-    		</td>
-  		</tr>
-  		{% endfor %}
+
+	
+	<!-- start of study guide section -->
+	<section class="studyguide">
+		<center>
+			<h1> {{title}} </h1>
+		</center>
+
+		{% for element in information %}
+			{% if element.type == "text" %}
+			{% endif %}
+			
+			{% if element.type == "image" %}
+			{% endif %}
+
 		{% endfor %}
 	</table>
-	</center>
 	</section>
+	
+	<!-- end of study guide section -->
 
-  <script src="{{ url_for('static', filename='js/jquery_min.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/popper.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/bootstrap_min.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 
 	</body>
 </html>
