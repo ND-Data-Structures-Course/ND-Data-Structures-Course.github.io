@@ -30,16 +30,7 @@
      	]
 	},
 
-	{"Unit_Title":"Unit 5 - INSERT TITLE HERE",
-         "Chapters":[
-         	{"Title":"Big-O Notation and Asymptotic Analysis","unique_id":"5-1","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Recursion Revisited: Complete Search and Backtracking","unique_id":"5-2","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Hashing","unique_id":"5-3","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Compression","unique_id":"5-4","video_URL":"https://cse.nd.edu/"}
-     	]
-	},
-
-	{"Unit_Title":"Unit 6 - Graphs and Transversal Algorithms",
+	{"Unit_Title":"Unit 5 - Graphs and Transversal Algorithms",
          "Chapters":[
          	{"Title":"Graphs and Graph Traversals","unique_id":"6-1","video_URL":"https://cse.nd.edu/"},
          	{"Title":"Topological Sorting and Minimum Spanning Trees","unique_id":"6-2","video_URL":"https://cse.nd.edu/"},
@@ -47,7 +38,7 @@
      	]
 	},
 
-	{"Unit_Title":"Unit 7 - Trees and Heaps",
+	{"Unit_Title":"Unit 6 - Trees and Heaps",
          "Chapters":[
          	{"Title":"B-Trees (2-3, 2-3-4 Trees)","unique_id":"7-1","video_URL":"https://cse.nd.edu/"},
          	{"Title":"Left-Leaning Red-Black Trees","unique_id":"7-2","video_URL":"https://cse.nd.edu/"},
@@ -56,7 +47,7 @@
      	]
 	},
 
-	{"Unit_Title":"Unit 8 - INSERT TITLE HERE",
+	{"Unit_Title":"Unit 7 - Introduction to C++ and More",
          "Chapters":[
          	{"Title":"C++ Classes, Operators, and Inheritance","unique_id":"8-1","video_URL":"https://cse.nd.edu/"},
          	{"Title":"Splay Trees","unique_id":"8-2","video_URL":"https://cse.nd.edu/"},
