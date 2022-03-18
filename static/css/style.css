@@ -8,7 +8,7 @@
 /* custom css for index.html */
 .our-team{
     padding: 20px 15px 30px;
-    background: gold;
+    background: #000e75;
     border-radius: 15px;
     text-align: center;
 }
@@ -22,7 +22,7 @@
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
-    background: #1751be;
+    background: gold;
     border-radius: 50%;
     cursor:pointer;
 }
@@ -35,14 +35,14 @@
     display: block;
     font-size: 20px;
     font-weight: 600;
-    color: #C99700;
+    color: gold;
     text-transform: uppercase;
     margin: 0 0 7px 0;
 }
 .our-team .post{
     display: block;
     font-size: 15px;
-    color: #C99700;
+    color: gold;
     text-transform: capitalize;
     margin-bottom: 15px;
 }
@@ -8347,7 +8347,7 @@ h1, h2, h3, h4, h5,
       outline: none !important; }
 
 .navbar-brand {
-  color: #000;
+  color: #0315a0;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
@@ -8412,7 +8412,7 @@ h1, h2, h3, h4, h5,
   .searchform .search {
     width: 50px;
     height: 50px;
-    background: #ff0000 !important; }
+    background: #0315a0 !important; }
     .searchform .search span {
       font-size: 16px;
       color: #fff; }
