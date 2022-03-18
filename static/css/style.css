@@ -60,8 +60,7 @@
 .learn .table {
   padding-left: 15px;
   padding-right: 15px;
-  border: 1px solid;
-  max-width: 75%;
+  max-width: 95%;
 }
 .learn .table .unittitle{
   padding: 15px;
@@ -69,7 +68,6 @@
   background-color: #04AA6D;
   color: white;
 }
-.learn .table tr:hover{background-color: coral;}
 .learn .table tr:nth-child(even) {background-color: #f2f2f2;}
 
 
