@@ -44,5 +44,6 @@ def practice_page():
         chapter_id=request.form.get('id')
         chaptertitle = data[int(chapter_id[0])-1].get('Chapters')[int(chapter_id[2])-1].get('Title')
         print(chaptertitle)
-	    return render_template("studyguide.html",title=chaptertitle,information=[])
+        return render_template("studyguide.html",title=chaptertitle,information=[])
+    pass
 
