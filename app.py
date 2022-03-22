@@ -36,5 +36,14 @@ def contact_page():
 
 @app.route('/practice', methods=['POST','GET']) #for practice page
 def practice_page():
-	return render_template("practice.html")
+    response = requests.get(PRACTICEPAGE_URL)
+    data = response.json()
+    if request.method == 'GET':
+        return render_template("practice.html",chapters=data)
+    if request.method == 'POST':
+        chapter_id=request.form.get('id')
+        chaptertitle = data[int(chapter_id[0])-1].get('Chapters')[int(chapter_id[2])-1].get('Title')
+        print(chaptertitle)
+        return render_template("studyguide.html",title=chaptertitle,information=[])
+    pass
 

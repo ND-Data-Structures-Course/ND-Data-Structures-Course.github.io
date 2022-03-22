@@ -8,7 +8,7 @@
 /* custom css for index.html */
 .our-team{
     padding: 20px 15px 30px;
-    background: #000e75;
+    background: #0c2340;
     border-radius: 15px;
     text-align: center;
 }
@@ -8252,7 +8252,7 @@ h1, h2, h3, h4, h5,
   background-position: center center; }
 
 .ftco-navbar-light {
-  background: #252525 !important;
+  background: #0c2340 !important;
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
@@ -8347,7 +8347,7 @@ h1, h2, h3, h4, h5,
       outline: none !important; }
 
 .navbar-brand {
-  color: #0315a0;
+  color: #0c2340;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
@@ -8412,7 +8412,7 @@ h1, h2, h3, h4, h5,
   .searchform .search {
     width: 50px;
     height: 50px;
-    background: #0315a0 !important; }
+    background: #0c2340 !important; }
     .searchform .search span {
       font-size: 16px;
       color: #fff; }
@@ -8428,3 +8428,22 @@ h1, h2, h3, h4, h5,
   border: 1px solid rgba(0, 0, 0, 0.1); }
   .form-control:focus, .form-control:active {
     border-color: #000; }
+
+/* add background color and padding around the contact page form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* style elements within the contact page form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
