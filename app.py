@@ -6,9 +6,9 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
-LEARNPAGE_URL = "https://jsonkeeper.com/b/SM6B"
-PRACTICE_URL = ""
-DATA_URL=""
+LEARNPAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/learn.json" #"https://jsonkeeper.com/b/SM6B"
+PRACTICE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/practice.json"
+DATA_URL="https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/chapterdata.json"
 @app.route('/', methods=['POST','GET'])
 def index():
 	return render_template("index.html") #will need to edit later
@@ -36,7 +36,7 @@ def contact_page():
 
 @app.route('/practice', methods=['POST','GET']) #for practice page
 def practice_page():
-    response = requests.get(PRACTICEPAGE_URL)
+    response = requests.get(PRACTICE_URL)
     data = response.json()
     if request.method == 'GET':
         return render_template("practice.html",chapters=data)
