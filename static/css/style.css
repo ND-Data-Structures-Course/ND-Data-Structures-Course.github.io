@@ -22,7 +22,7 @@
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
-    background: gold;
+    background: #c99700;
     border-radius: 50%;
     cursor:pointer;
 }
@@ -35,14 +35,14 @@
     display: block;
     font-size: 20px;
     font-weight: 600;
-    color: gold;
+    color: #c99700;
     text-transform: uppercase;
     margin: 0 0 7px 0;
 }
 .our-team .post{
     display: block;
     font-size: 15px;
-    color: gold;
+    color: #c99700;
     text-transform: capitalize;
     margin-bottom: 15px;
 }
@@ -8216,7 +8216,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ff0000; }
+  color: #C99700; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8284,7 +8284,7 @@ h1, h2, h3, h4, h5,
       display: block;
       width: 0;
       height: 2px;
-      background: gold;
+      background: #c99700 ;
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s; }
@@ -8294,7 +8294,7 @@ h1, h2, h3, h4, h5,
           -o-transition: none;
           transition: none; } }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: gold; }
+      color: #c99700; }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
         width: 100%; }
     @media (max-width: 991.98px) {
@@ -8318,8 +8318,8 @@ h1, h2, h3, h4, h5,
     border-radius: 4px; }
     
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-    color: gold;
-    background: gold;
+    color: #c99700;
+    background: #c99700;
     border-radius: 0px; }
     @media (max-width: 767.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
@@ -8331,7 +8331,7 @@ h1, h2, h3, h4, h5,
         background: #ff0000;
         border-radius: 4px; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: gold; }
+    color: #c99700; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
         color: #fff; } }
@@ -8378,8 +8378,8 @@ h1, h2, h3, h4, h5,
     .social-media p a span {
       color: #4d4d4d; }
     .social-media p a:hover {
-      background: #ff0000;
-      border-color: #ff0000; }
+      background: #c99700;
+      border-color: #c99700; }
       .social-media p a:hover span {
         color: #fff; }
 
