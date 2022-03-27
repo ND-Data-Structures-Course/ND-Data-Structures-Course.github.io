@@ -6,14 +6,18 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
-LEARNPAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/learn.json" #"https://jsonkeeper.com/b/SM6B"
+# Database URL's - Course Specific
+LEARNPAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/learn.json"
 PRACTICE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/practice.json"
 DATA_URL="https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/chapterdata.json"
+# End of Database URL's 
+
 @app.route('/', methods=['POST','GET'])
 def index():
-	return render_template("index.html") #will need to edit later
+	return render_template("index.html")
 
-@app.route('/learn', methods=['POST','GET']) #for learn page
+
+@app.route('/learn', methods=['POST','GET'])
 def learn_page():
     response = requests.get(LEARNPAGE_URL)
     data = response.json()
@@ -22,19 +26,19 @@ def learn_page():
     if request.method == 'POST':
         chapter_id=request.form.get('id')
         chaptertitle = data[int(chapter_id[0])-1].get('Chapters')[int(chapter_id[2])-1].get('Title')
-        print(chaptertitle)
-        # TODO: get information for topic from database and store the data into a list and pass it into the website
-        return render_template("studyguide.html",title=chaptertitle,information=[])
-        #make it go to new function generating the new html page
-        #return render_template("learn.html",chapters=data) 
+        response = requests.get(DATA_URL)
+        allData = response.json()
+        chapterData = allData[int(chapter_id[0])-1].get('content')
+        print(chapterData)
+        return render_template("studyguide.html",title=chaptertitle,information=chapterData)
 
 
-@app.route('/contact', methods=['POST','GET']) #for contact page
+@app.route('/contact', methods=['POST','GET'])
 def contact_page():
 	return render_template("contact.html") 
 
 
-@app.route('/practice', methods=['POST','GET']) #for practice page
+@app.route('/practice', methods=['POST','GET'])
 def practice_page():
     response = requests.get(PRACTICE_URL)
     data = response.json()
