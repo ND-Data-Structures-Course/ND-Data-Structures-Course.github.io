@@ -54,3 +54,6 @@ def practice_page():
         return render_template("studyguide.html",title=chaptertitle,information=[])
     pass
 
+@app.route('/visualize', methods=['POST','GET'])
+def visualize_page():
+	return render_template("visualize.html") 
