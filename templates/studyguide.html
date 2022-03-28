@@ -59,15 +59,16 @@
 	<!-- END nav -->
 
 	<!-- start of study guide section -->
-	<center>
-	<section class="studyguide" style="width: 90%; background-color: grey;margin-top: 0px;padding-top: 20px">
+	<section class="studyguide" style="width: 90%; background-color: grey;margin-top: 0px;padding-top: 20px;">
 		<center>
 			<h1> {{title}} </h1>
 		</center>
 
 		{% for element in information %}
 			{% if element.type == "text" %}
+			<left>
 			<p style="color: white;align-content: left"> {{element.info}}</p>
+			</left>
 			{% endif %}
 			
 			{% if element.type == "image" %}
@@ -77,12 +78,13 @@
 			{% endif %}
 
 			{% if element.type == "subtitle" %}
+			<center>
 			<h3> {{element.info}} </h3>
+			</center>
 			{% endif %}
 
 		{% endfor %}
 	</section>
-	</center>
 	
 	<!-- end of study guide section -->
 
