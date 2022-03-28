@@ -35,14 +35,20 @@
     display: block;
     font-size: 20px;
     font-weight: 600;
-    color: #c99700;
+    color: #fff;
     text-transform: uppercase;
     margin: 0 0 7px 0;
 }
+
+.our-team:hover .title{
+  color: #c99700;
+  text-decoration: underline;
+}
+
 .our-team .post{
     display: block;
     font-size: 15px;
-    color: #c99700;
+    color: #fff;
     text-transform: capitalize;
     margin-bottom: 15px;
 }
@@ -53,7 +59,7 @@
 
 /* end of custom section for index.html */
 
-/* custom-css for learn.html page */.
+/* custom-css for learn.html page */
 .learn {
   text-align: center;
 }
@@ -65,14 +71,34 @@
 .learn .table .unittitle{
   padding: 15px;
   text-align: center;
-  background-color: #04AA6D;
+  background-color: #0c2340;
   color: white;
 }
+
 .learn .table tr:nth-child(even) {background-color: #f2f2f2;}
 
-
-
 /* end of custom css for learn.html page */
+
+/* custom-css for practice.html page */
+.practice {
+  text-align: center;
+}
+.practice .table {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 95%;
+}
+.practice .table .unittitle{
+  padding: 15px;
+  text-align: center;
+  background-color: #0c2340;
+  color: white;
+}
+
+.practice .table tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* end of custom css for practice.html page */
+
 :root {
   --blue: #0C2340; /*#007bff; */
   --indigo: #6610f2;

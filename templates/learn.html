@@ -57,7 +57,7 @@
 	<center>
 	<table class="table" style="width: 90%;">
 		{% for unit in chapters %}
-  		<th colspan="3" style="  text-align: center;background-color: #04AA6D;color: white;">
+  		<th colspan="3" style="  text-align: center;background-color: #0c2340;color: white;">
   			<center>
   			{{unit.Unit_Title}}
   			</center>
@@ -72,7 +72,7 @@
     		<td class="watch">
     			<center>
 					<form action="{{chap.video_URL}}" method="get" target="_blank">
-         					<button type="submit" style="border-radius: 12px;background-color: #0C2340;color: white;width: 100%;border-color: #0C2340;">WATCH</button>
+         					<button type="submit" style="border-radius: 12px;background-color: #c99700;color: white;width: 100%;border-color: #c99700;">WATCH</button>
          			</form>
 				</center>
     		</td>
@@ -80,7 +80,7 @@
     			<center>
     				<form action="/learn" method="POST">
     				<input type='hidden' name='id' value='{{chap.unique_id}}'/>
-    				<input class='read' type='submit' value='READ' style="border-radius: 12px;background-color: #0C2340;color: white;width: 100%;border-color: #0C2340;"/>
+    				<input class='read' type='submit' value='READ' style="border-radius: 12px;background-color: #c99700;color: white;width: 100%;border-color: #c99700;"/>
     				</form>
     			</center>
     		</td>
