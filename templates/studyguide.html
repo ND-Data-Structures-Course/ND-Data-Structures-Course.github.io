@@ -59,16 +59,15 @@
 	<!-- END nav -->
 
 	<!-- start of study guide section -->
-	<section class="studyguide" style="width: 90%; background-color: grey;margin-top: 0px;padding-top: 20px;">
+	<center>
+	<section class="studyguide" style="width: 90%; background-color: #D3D3D3;margin-top: 0px;padding-top:20px;padding-left: 20px;padding-right: 20px;border-radius: 50px">
 		<center>
 			<h1> {{title}} </h1>
 		</center>
 
 		{% for element in information %}
 			{% if element.type == "text" %}
-			<left>
-			<p style="color: white;align-content: left"> {{element.info}}</p>
-			</left>
+			<p style="color: black;text-align: left;"> {{element.info}}</p>
 			{% endif %}
 			
 			{% if element.type == "image" %}
@@ -83,8 +82,18 @@
 			</center>
 			{% endif %}
 
+			{% if element.type == "code" %}
+				<p> {{element.info}}</p>
+			{% endif %}
+
+			{% if element.type == "video" %}
+			<center>
+				<iframe src="{{element.info}}" width="50%" height="500"></iframe>
+			</center>
+			{% endif %}
 		{% endfor %}
 	</section>
+	</center>
 	
 	<!-- end of study guide section -->
 
