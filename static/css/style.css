@@ -99,6 +99,15 @@
 
 /* end of custom css for practice.html page */
 
+/* custom-css for visualize.html */
+.visualize .picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* end of custom css for practice.html page */
+
 :root {
   --blue: #0C2340; /*#007bff; */
   --indigo: #6610f2;
