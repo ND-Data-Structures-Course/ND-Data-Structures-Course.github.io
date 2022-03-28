@@ -53,6 +53,37 @@
 	  </nav>
 	</section>
 	<!-- END nav -->
+	
+	<section class="practice" style="overflow-x:auto;">
+	<center>
+	<table class="table" style="width: 90%;">
+		{% for unit in chapters %}
+		<th colspan="3" style="  text-align: center;background-color: #0c2340;color: white;">
+			<center>
+			{{unit.Unit_Title}}
+			</center>
+		</th>
+		{% for chap in unit.Chapters %}
+		<tr>
+			<td class="title">
+				<center>
+					{{chap.Title}}
+				</center>
+			</td>
+			<td class="practice">
+				<center>
+					<form action="/practice" method="POST">
+					<input type='hidden' name='id' value='{{chap.unique_id}}'/>
+					<input class='practice' type='submit' value='PROBLEMS' style="border-radius: 12px;background-color: #c99700;color: white;width: 100%;border-color: #c99700;"/>
+					</form>
+				</center>
+			</td>
+		</tr>
+		{% endfor %}
+		{% endfor %}
+	</table>
+	</center>
+	</section>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
