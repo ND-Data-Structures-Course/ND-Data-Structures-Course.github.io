@@ -1,21 +1,21 @@
 [
-    {"Unit_Title":"Unit 1 - Introduction to Memory",
+    {"Unit_Title":"Unit 1 - Memory Layout, C Pointers, and Static and Dynamic Memory Allocation",
         "Chapters":[
             {"Title":"Introduction to Programming Abstractions and Data Structures","unique_id":"1-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
             {"Title":"Void Pointers and Memory Layout Basics","unique_id":"1-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
         ]
    },
 
-   {"Unit_Title":"Unit 2 - Introduction to Structures",
+   {"Unit_Title":"Unit 2 - Advanced C Memory, Pointer, and Struct Concepts",
         "Chapters":[
             {"Title":"Advanced Arrays and Pass By Reference","unique_id":"2-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
             {"Title":"Pointers to Pointers, C Structs and and Vectors","unique_id":"2-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
             {"Title":"Recursion and Dynamic Programming Introduction","unique_id":"2-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Recursion and Dynamic Programming Introduction","unique_id":"2-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
+            {"Title":"Basic Sorts and Quick Sort","unique_id":"2-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
         ]
     },
 
-    {"Unit_Title":"Unit 3 - Advanced Data Structures",
+    {"Unit_Title":"Unit 3 - Fundamental C Data Structures",
         "Chapters":[
             {"Title":"Singly Linked Lists and Stacks","unique_id":"3-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
             {"Title":"Doubly Linked Lists, Queues, Deques, and Priority Queues","unique_id":"3-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
@@ -23,45 +23,40 @@
         ]
     },
 
-    {"Unit_Title":"Unit 4 - Introduction to C++",
+    {"Unit_Title":"Unit 4 - Asymptotic Analysis and C++ Introduction",
         "Chapters":[
             {"Title":"C++ Introduction and the Standard Template Library","unique_id":"4-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"C++ Structs, Constructors, Destructors, and Class Templates","unique_id":"4-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
+            {"Title":"C++ Structs, Constructors, Destructors, and Class Templates","unique_id":"4-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Recursion Revisited: Complete Search and Backtracking","unique_id":"4-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Big-O Notation and Amortized Analysis","unique_id":"4-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Hashing","unique_id":"4-5","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Heaps and Binomial Heaps","unique_id":"4-6","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
         ]
     },
 
-    {"Unit_Title":"Unit 5 - INSERT TITLE HERE",
+    {"Unit_Title":"Unit 5 - Graph Design and Algorithms",
         "Chapters":[
-            {"Title":"Big-O Notation and Asymptotic Analysis","unique_id":"5-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Recursion Revisited: Complete Search and Backtracking","unique_id":"5-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Hashing","unique_id":"5-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Compression","unique_id":"5-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
+            {"Title":"Graphs and Graph Traversals","unique_id":"5-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Topological Sorting and Minimum Spanning Trees","unique_id":"5-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Dijkstra's Algorithm, Revisiting Hashing, and Exam 2 Review","unique_id":"5-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
         ]
     },
 
-    {"Unit_Title":"Unit 6 - Graphs and Transversal Algorithms",
+    {"Unit_Title":"Unit 6 - Advanced Tree Design and Algorithms",
         "Chapters":[
-            {"Title":"Graphs and Graph Traversals","unique_id":"6-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Topological Sorting and Minimum Spanning Trees","unique_id":"6-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Dijkstra's Algorithm and A* Algorithm","unique_id":"6-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
+            {"Title":"Software Engineering and Development","unique_id":"6-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"B-Trees (2-3, 2-3-4 Trees)","unique_id":"6-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Red-Black Trees and Sets","unique_id":"6-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Tries, Bloom Filters, and P=NP?","unique_id":"6-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
         ]
     },
 
-    {"Unit_Title":"Unit 7 - Trees and Heaps",
+    {"Unit_Title":"Unit 7 - To Data Structures and Beyond!",
         "Chapters":[
-            {"Title":"B-Trees (2-3, 2-3-4 Trees)","unique_id":"7-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Left-Leaning Red-Black Trees","unique_id":"7-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Heaps and Probabilistic Treaps","unique_id":"7-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Compression","unique_id":"7-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
-        ]
-    },
-
-    {"Unit_Title":"Unit 8 - INSERT TITLE HERE",
-        "Chapters":[
-            {"Title":"C++ Classes, Operators, and Inheritance","unique_id":"8-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Splay Trees","unique_id":"8-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Prefix Operators and Tries","unique_id":"8-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
-            {"Title":"Bloom Filters and Approximate Membership","unique_id":"8-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
+            {"Title":"C++ Classes, Inheritance, and Polymorphism","unique_id":"7-1","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Splay Trees and Treaps","unique_id":"7-2","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"Huffman Encoding and Multithreading Introduction","unique_id":"7-3","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]},
+            {"Title":"A* Algorithm and The Superstition Lecture","unique_id":"7-4","QuesAndSol":[{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"},{"question":"INSERT HERE","solution":"INSERT ANSWER","solution_video":"LINK HERE"}]}
         ]
     }
 ]

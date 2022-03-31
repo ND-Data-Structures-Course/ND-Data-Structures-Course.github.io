@@ -1,21 +1,21 @@
 [
-	{"Unit_Title":"Unit 1 - Introduction to Memory",
+	{"Unit_Title":"Unit 1 - Memory Layout, C Pointers, and Static and Dynamic Memory Allocation",
          "Chapters":[
          	{"Title":"Introduction to Programming Abstractions and Data Structures","unique_id":"1-1","video_URL":"https://cse.nd.edu/"},
          	{"Title":"Void Pointers and Memory Layout Basics","unique_id":"1-2","video_URL":"https://cse.nd.edu/"}
      	]
 	},
 
-	{"Unit_Title":"Unit 2 - Introduction to Structures",
+	{"Unit_Title":"Unit 2 - Advanced C Memory, Pointer, and Struct Concepts",
          "Chapters":[
          	{"Title":"Advanced Arrays and Pass By Reference","unique_id":"2-1","video_URL":"https://cse.nd.edu/"},
          	{"Title":"Pointers to Pointers, C Structs and and Vectors","unique_id":"2-2","video_URL":"https://cse.nd.edu/"},
          	{"Title":"Recursion and Dynamic Programming Introduction","unique_id":"2-3","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Recursion and Dynamic Programming Introduction","unique_id":"2-4","video_URL":"https://cse.nd.edu/"}
+         	{"Title":"Basic Sorts and Quick Sort","unique_id":"2-4","video_URL":"https://cse.nd.edu/"}
      	]
 	},
 
-	{"Unit_Title":"Unit 3 - Advanced Data Structures",
+	{"Unit_Title":"Unit 3 - Fundamental C Data Structures",
          "Chapters":[
          	{"Title":"Singly Linked Lists and Stacks","unique_id":"3-1","video_URL":"https://cse.nd.edu/"},
          	{"Title":"Doubly Linked Lists, Queues, Deques, and Priority Queues","unique_id":"3-2","video_URL":"https://cse.nd.edu/"},
@@ -23,45 +23,40 @@
      	]
 	},
 
-	{"Unit_Title":"Unit 4 - Introduction to C++",
+	{"Unit_Title":"Unit 4 - Asymptotic Analysis and C++ Introduction",
          "Chapters":[
          	{"Title":"C++ Introduction and the Standard Template Library","unique_id":"4-1","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"C++ Structs, Constructors, Destructors, and Class Templates","unique_id":"4-2","video_URL":"https://cse.nd.edu/"}
+         	{"Title":"C++ Structs, Constructors, Destructors, and Class Templates","unique_id":"4-2","video_URL":"https://cse.nd.edu/"},
+			{"Title":"Recursion Revisited: Complete Search and Backtracking","unique_id":"4-3","video_URL":"https://cse.nd.edu/"},
+			{"Title":"Big-O Notation and Amortized Analysis","unique_id":"4-4","video_URL":"https://cse.nd.edu/"},
+			{"Title":"Hashing","unique_id":"4-5","video_URL":"https://cse.nd.edu/"},
+			{"Title":"Heaps and Binomial Heaps","unique_id":"4-6","video_URL":"https://cse.nd.edu/"}
      	]
 	},
 
-	{"Unit_Title":"Unit 5 - Computing Efficiency",
+	{"Unit_Title":"Unit 5 - Graph Design and Algorithms",
          "Chapters":[
-         	{"Title":"Big-O Notation and Asymptotic Analysis","unique_id":"5-1","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Recursion Revisited: Complete Search and Backtracking","unique_id":"5-2","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Hashing","unique_id":"5-3","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Compression","unique_id":"5-4","video_URL":"https://cse.nd.edu/"}
+         	{"Title":"Graphs and Graph Traversals","unique_id":"5-1","video_URL":"https://cse.nd.edu/"},
+			{"Title":"Topological Sorting and Minimum Spanning Trees","unique_id":"5-2","video_URL":"https://cse.nd.edu/"},
+			{"Title":"Dijkstra's Algorithm, Revisiting Hashing, and Exam 2 Review","unique_id":"5-3","video_URL":"https://cse.nd.edu/"}
      	]
 	},
 
-	{"Unit_Title":"Unit 6 - Graphs and Transversal Algorithms",
+	{"Unit_Title":"Unit 6 - Advanced Tree Design and Algorithms",
          "Chapters":[
-         	{"Title":"Graphs and Graph Traversals","unique_id":"6-1","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Topological Sorting and Minimum Spanning Trees","unique_id":"6-2","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Dijkstra's Algorithm and A* Algorithm","unique_id":"6-3","video_URL":"https://cse.nd.edu/"}
+         	{"Title":"Software Engineering and Development","unique_id":"6-1","video_URL":"https://cse.nd.edu/"},
+         	{"Title":"B-Trees (2-3, 2-3-4 Trees)","unique_id":"6-2","video_URL":"https://cse.nd.edu/"},
+         	{"Title":"Red-Black Trees and Sets","unique_id":"6-3","video_URL":"https://cse.nd.edu/"},
+			{"Title":"Tries, Bloom Filters, and P=NP?","unique_id":"6-4","video_URL":"https://cse.nd.edu/"}
      	]
 	},
 
-	{"Unit_Title":"Unit 7 - Trees and Heaps",
+	{"Unit_Title":"To Data Structures and Beyond!",
          "Chapters":[
-         	{"Title":"B-Trees (2-3, 2-3-4 Trees)","unique_id":"7-1","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Left-Leaning Red-Black Trees","unique_id":"7-2","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Heaps and Probabilistic Treaps","unique_id":"7-3","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Compression","unique_id":"7-4","video_URL":"https://cse.nd.edu/"}
-     	]
-	},
-
-	{"Unit_Title":"Unit 8 - To Data Structures and Beyond: Advanced Topics",
-         "Chapters":[
-         	{"Title":"C++ Classes, Operators, and Inheritance","unique_id":"8-1","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Splay Trees","unique_id":"8-2","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Prefix Operators and Tries","unique_id":"8-3","video_URL":"https://cse.nd.edu/"},
-         	{"Title":"Bloom Filters and Approximate Membership","unique_id":"8-4","video_URL":"https://cse.nd.edu/"}
+         	{"Title":"C++ Classes, Inheritance, and Polymorphism","unique_id":"7-1","video_URL":"https://cse.nd.edu/"},
+         	{"Title":"Splay Trees and Treaps","unique_id":"7-2","video_URL":"https://cse.nd.edu/"},
+         	{"Title":"Huffman Encoding and Multithreading Introduction","unique_id":"7-3","video_URL":"https://cse.nd.edu/"},
+         	{"Title":"A* Algorithm and The Superstition Lecture","unique_id":"7-4","video_URL":"https://cse.nd.edu/"}
      	]
 	}
 ]
