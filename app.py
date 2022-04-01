@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Database URL's - Course Specific
 LEARNPAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/learn.json"
 PRACTICE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/practice.json"
-DATA_URL="https://jsonkeeper.com/b/2QJ3" #"https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/chapterdata.json"
+DATA_URL="https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/chapterdata.json"
 # End of Database URL's 
 
 @app.route('/', methods=['POST','GET'])
