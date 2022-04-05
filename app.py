@@ -51,7 +51,7 @@ def practice_page():
         chapter_id=request.form.get('id')
         chaptertitle = data[int(chapter_id[0])-1].get('Chapters')[int(chapter_id[2])-1].get('Title')
         print(chaptertitle)
-        return render_template("studyguide.html",title=chaptertitle,information=[])
+        return render_template("practiceguide.html",title=chaptertitle,count=[1,2,3,4,5,6,7,8,9,10])
     pass
 
 @app.route('/visualize', methods=['POST','GET'])

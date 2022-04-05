@@ -5,6 +5,26 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+/* custom css for practiceguide.html */
+#navigation ul, #navigation ul li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+#navigation ul {
+     text-align: center;
+}
+
+#navigation ul li {
+     display: inline;
+     margin-right: .75em;
+}
+
+#navigation ul li.last {
+     margin-right: 0;
+}
+
 /* custom css for index.html */
 .our-team{
     padding: 20px 15px 30px;
