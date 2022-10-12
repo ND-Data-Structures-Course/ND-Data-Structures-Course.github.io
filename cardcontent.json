@@ -1,0 +1,71 @@
+[
+    {"Card_Title": "Introduction to Programming Recap",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Programming Abstractions and Data Structures"},
+            {"Title":"The Main Categories of Programming Languages"},
+            {"Title":"Basics of C / Python"},
+            {"Title":"Why is Data Structures so Important"},
+            {"Title":"Practice"}
+    ]   
+    },
+
+    {"Card_Title": "Memory Layout and C Pointers",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"What is a pointer?"},
+            {"Title":"Memory Layout in a Computer"},
+            {"Title":"Using Pointers"},
+            {"Title":"Practice"}
+        ]
+    },
+
+    {"Card_Title": "Dynamic vs Static Memory Allocation",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"What is Memory Allocation?"},
+            {"Title":"Static Allocation"},
+            {"Title":"Dynamic Allocation"},
+            {"Title":"Memory Tradeoffs"},
+            {"Title":"Practice"}
+        ]
+    },
+    {"Heading": "Array Data Structure",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Indexing and Traversing an Array"},
+            {"Title":"2-D Array"},      
+            {"Title":"Practice"}
+        ]   
+    },
+    {"Heading": "Recursion and Dynamic Programming",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Keeping Track of Memory with Recursive Calls"},
+            {"Title":"Recursive Callback Function"},
+            {"Title":"Base Case"},
+            {"Title":"Key Uses and Advantages"},        
+            {"Title":"Practice"}
+        ]
+    },
+    {"Heading": "Stack",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"LIFO"},
+            {"Title":"Design and Implementations"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},        
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Queue",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"FIFO"},
+            {"Title":"Design and Implementations"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},        
+            {"Title":"Practice"}
+        ] 
+    }
+]
