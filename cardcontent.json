@@ -30,7 +30,7 @@
             {"Title":"Practice"}
         ]
     },
-    {"Heading": "Array Data Structure",
+    {"Card_Title": "Array Data Structure",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Indexing and Traversing an Array"},
@@ -38,7 +38,7 @@
             {"Title":"Practice"}
         ]   
     },
-    {"Heading": "Recursion and Dynamic Programming",
+    {"Card_Title": "Recursion and Dynamic Programming",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Keeping Track of Memory with Recursive Calls"},
@@ -48,7 +48,7 @@
             {"Title":"Practice"}
         ]
     },
-    {"Heading": "Stack",
+    {"Card_Title": "Stack",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"LIFO"},
@@ -58,7 +58,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Queue",
+    {"Card_Title": "Queue",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"FIFO"},
