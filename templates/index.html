@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 	<link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/x-icon">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	</head>
 	<body>
 	<!-- Navbar with search facility -->
@@ -43,9 +45,6 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
 	        	<li class="nav-item active"><a href=/ class="nav-link">Home</a></li>
-	        	<!-- <li class="nav-item"><a href=learn class="nav-link">Learn</a></li>
-	        	<li class="nav-item"><a href=practice class="nav-link">Practice</a></li>
-	        	<li class="nav-item"><a href=visualize class="nav-link">Visualize</a></li> -->
 	            <li class="nav-item"><a href=contact class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -56,64 +55,20 @@
 
 
 	<!-- section divide -->
-        <!-- <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=learn class="img-link">
-                        	<img src="{{ url_for('static', filename='LearnIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=learn class="title-link">
-                    	<h3 class="title">Learn</h3>
-					</a>
-                    <span class="post">Build a solid understanding of data structures through videos, animations, and explanations.</span>
-                </div>
-            </div>
-     
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=practice class="img-link">
-                        	<img src="{{ url_for('static', filename='PracticeIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=practice class="title-link">
-                    	<h3 class="title">Practice</h3>
-					</a>
-                    <span class="post">Reinforce data structure understanding through repeated exercises and implementations.</span>
-                </div>
-            </div>
-    
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=visualize class="img-link">
-                        	<img src="{{ url_for('static', filename='VisualizeIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=visualize class="title-link">
-                    	<h3 class="title">Visualize</h3>
-					</a>
-                    <span class="post">Deepen understanding of how data structures work in a visual sense through animations and videos.</span>
-                </div>
-            </div> -->
+	{% for card in chapters %}
+		<div class="card" style="width: 18rem;">
+  			<img src="..." class="card-img-top" alt="...">
+  			<div class="card-body">
+    			<h5 class="card-title">{{card.Card_Title}}</h5>
+    			<p class="card-text"> SAMPLE SUBTEXT </p>
+    			{% for tag in card.Subheadings %}
+    				<a href="#" class="btn btn-primary">{{tag.Title}}</a>
+    			{% endfor %}
+  			</div>
+		</div>
+	{% endfor %}
+	<!-- -->
 
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=contact class="img-link">
-                        	<img src="{{ url_for('static', filename='ContactIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=contact class="title-link">
-                    	<h3 class="title">Contact</h3>
-					</a>
-                    <span class="post">Found a bug? Have questions about Data Structures? Reach out to us and we will be happy to help!</span>
-                </div>
-            </div>
-
-        </div>
 	<script src="{{ url_for('static', filename='js/jquery_min.js') }}"></script>
   	<script src="{{ url_for('static', filename='js/popper.js') }}"></script>
   	<script src="{{ url_for('static', filename='js/bootstrap_min.js') }}"></script>
