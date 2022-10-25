@@ -6,14 +6,35 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
-# DataBase URL's
-HOME_PAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/cardcontent.json"
+# Database URL's - Course Specific
+LEARNPAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/learn.json"
+PRACTICE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/practice.json"
+DATA_URL="https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/chapterdata.json"
+DUMMY_DATA = [{'data_structure': "Trees", 
+               'img_link': "https://visualgo.net/img/gif/bst.gif",
+               'topics':['topic1','topic2','topic3']},
+              {'data_structure': "Graphs", 
+               'img_link':"https://visualgo.net/img/gif/graphds.gif",
+               'topics':['topic1','topic2','topic3']},
+              {'data_structure': "Linked_lists", 
+               'img_link': "https://visualgo.net/img/gif/list.gif",
+               'topics':['topic1','topic2','topic3']},
+            {'data_structure': "Arrays and Pointers", 
+               'img_link': "https://visualgo.net/img/gif/bitmask.gif",
+               'topics':['topic1','topic2','topic3']},
+            {'data_structure': "Recursion", 
+               'img_link': "https://visualgo.net/img/gif/heap.gif",
+               'topics':['topic1','topic2','topic3']},
+            {'data_structure': "Strings", 
+               'img_link': "https://visualgo.net/img/gif/suffixarray.gif",
+               'topics':['topic1','topic2','topic3']}
+            ]
+# End of Database URL's 
 
 @app.route('/', methods=['POST','GET'])
 def index():
-    response = requests.get(HOME_PAGE_URL)
-    data = response.json()
-    return render_template("index.html", chapters=data)
+	return render_template("index.html", data_structures = DUMMY_DATA )
+
 
 '''
 @app.route('/learn', methods=['POST','GET'])
