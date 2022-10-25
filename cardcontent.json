@@ -54,6 +54,7 @@
             {"Title":"LIFO"},
             {"Title":"Design and Implementations"},
             {"Title":"Advantages and Disadvantages"},
+            {"Title":"Insertions and Deletions"},
             {"Title":"Examples"},        
             {"Title":"Practice"}
         ] 
@@ -64,7 +65,216 @@
             {"Title":"FIFO"},
             {"Title":"Design and Implementations"},
             {"Title":"Advantages and Disadvantages"},
+            {"Title":"Insertions and Deletions"},
             {"Title":"Examples"},        
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Dequeue",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Design and Implementations"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Priority Queue",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Design and Implementations"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Basic Sort",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Hash Table",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Search, Insert, Delete"},
+            {"Title":"Rehashing and Determining Size"},
+            {"Title":"Linear Probing"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Trees and Tree Traversal",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"In-Order, Pre-Order, and Post-Order"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Binary Search Tree",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "B Tree",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Red Black Tree",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Singly Linked List",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Design and Implementation"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Doubly Linked List",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Design and Implementation"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Quick Sort",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Big O Notation",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Formal Definition"},
+            {"Title":"Time and Space Complexity"},
+            {"Title":"Best, Average, Worst Time"},
+            {"Title":"Industry Importance"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Structs",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Types of Members"},
+            {"Title":"Accessing Members"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Depth First Traversal",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Recursive Call"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Breadth First Traversal",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Queue Implementation"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Minimum and Maximum Heap",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Djikstra's Algorithm",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Bubble Sort",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Insertion Sort",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Merge Sort",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Hash Functions",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Rehashing Algorithm"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Complexity"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Heading": "Graphs",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Directed vs Undirected"},
+            {"Title":"Types of Graphs"},
+            {"Title":"Applications and Examples"},     
             {"Title":"Practice"}
         ] 
     }
