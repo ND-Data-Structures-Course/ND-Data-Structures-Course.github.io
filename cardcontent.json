@@ -90,7 +90,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Card_Title": "Basic Sort",
+    {"Card_Title": "Basic Sort", 
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
