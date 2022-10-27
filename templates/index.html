@@ -55,18 +55,26 @@
 
 
 	<!-- section divide -->
-	{% for card in chapters %}
-		<div class="card" style="width: 18rem;">
-  			<img src="..." class="card-img-top" alt="...">
-  			<div class="card-body">
-    			<h5 class="card-title">{{card.Card_Title}}</h5>
-    			<p class="card-text"> SAMPLE SUBTEXT </p>
-    			{% for tag in card.Subheadings %}
-    				<a href="#" class="btn btn-primary">{{tag.Title}}</a>
-    			{% endfor %}
-  			</div>
+
+	<div class="container" style="display: grid;">
+		<div class="row">
+			{% for card in chapters %}
+			<div class="col">
+				<div class="card" style="width: 18rem;
+				">
+  					<img src="..." class="card-img-top" alt="...">
+  					<div class="card-body">
+    					<h5 class="card-title">{{card.Card_Title}}</h5>
+    					<p class="card-text"> SAMPLE SUBTEXT </p>
+    					{% for tag in card.Subheadings %}
+    						<a href="#" class="btn btn-primary">{{tag.Title}}</a>
+    					{% endfor %}
+  					</div>
+				</div>
+			</div>
+			{% endfor %}
 		</div>
-	{% endfor %}
+	</div>
 	<!-- -->
 
 	<script src="{{ url_for('static', filename='js/jquery_min.js') }}"></script>
