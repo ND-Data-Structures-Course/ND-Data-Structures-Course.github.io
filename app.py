@@ -7,16 +7,20 @@ from flask import Flask, render_template, request, redirect
 app = Flask(__name__)
 
 # Database URL's - Course Specific
-LEARNPAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/learn.json"
-PRACTICE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/practice.json"
-DATA_URL="https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/chapterdata.json"
+
+HOME_PAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/cardcontent.json"
+            
 # End of Database URL's 
 
 @app.route('/', methods=['POST','GET'])
 def index():
-	return render_template("index.html")
+    response = requests.get(HOME_PAGE_URL)
+    data = response.json()
+    return render_template("index.html", chapters=data)
 
 
+
+'''
 @app.route('/learn', methods=['POST','GET'])
 def learn_page():
     response = requests.get(LEARNPAGE_URL)
@@ -56,4 +60,4 @@ def practice_page():
 
 @app.route('/visualize', methods=['POST','GET'])
 def visualize_page():
-	return render_template("visualize.html") 
+	return render_template("visualize.html") '''

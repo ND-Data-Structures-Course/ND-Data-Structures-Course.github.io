@@ -5,19 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 	<link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/x-icon">
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
+
 	<body>
-	<!-- Navbar with search facility -->
+	<!-- Navbar with search facility-->
 	<section class="ftco-section">
 		<div class="container-fluid px-md-5">
 			<div class="row justify-content-between">
 				<div class="col-md-8 order-md-last">
 					<div class="row">
 						<div class="col-md-6 text-center">
-							<a class="navbar-brand" href=/>University of Notre Dame <span>CSE-20312 Data Structures</span></a>
+							<a class="navbar-brand" href=/>School of Notre Dame <span>CSE-20312 Data Structures</span></a>
 						</div>
 					</div>
 				</div>
@@ -43,9 +48,6 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
 	        	<li class="nav-item active"><a href=/ class="nav-link">Home</a></li>
-	        	<!-- <li class="nav-item"><a href=learn class="nav-link">Learn</a></li>
-	        	<li class="nav-item"><a href=practice class="nav-link">Practice</a></li>
-	        	<li class="nav-item"><a href=visualize class="nav-link">Visualize</a></li> -->
 	            <li class="nav-item"><a href=contact class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -54,70 +56,51 @@
 	</section>
 	<!-- END nav -->
 
+	<!-- Topics -->
+	<section id="team" class="pb-5">
+	    <div class="container">
+	        <center><h5 class="section-title h1">TOPICS</h5></center>
+	        <div class="row">
+	        	{% for card in chapters %}
+	            <!-- Topic-->
+	            <div class="col-xs-12 col-sm-6 col-md-4">
+	                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+	                    <div class="mainflip">
+	                        <div class="frontside">
+	                            <div class="card">
+	                                <div class="card-body text-center">
+	                                	<h4 class="card-title">{{card.Card_Title}}</h4>
+	                                	<p class="card-text"> INSERT IMAGE HERE </p>
+	                                    <!--<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p> --> 
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <div class="backside">
+	                            <div class="card">
+	                                <div class="card-body text-center mt-4">
+	                                    <h4 class="card-title">{{card.Card_Title}}</h4>
+	                                    <p class="card-text"> SAMPLE SUBTEXT / DESCRIPTION </p>
+	                                    <ul class="list-inline">
+	                                    	{% for tag in card.Subheadings %}
+	                                    		<li class="list-inline-item">
+	    											<a href="#" class="btn btn-secondary">{{tag.Title}}</a> <p>   </p>
+	    										</li>
+	    									{% endfor %}
+	                                    </ul>
+	                                    <a href="#" class="btn btn-primary btn-sm">READ MORE</i></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <!-- ./Topic -->
+	            {% endfor %}
+	        </div>
+	    </div>
+	</section>
+	<!-- Topics -->
 
-	<!-- section divide -->
-        <!-- <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=learn class="img-link">
-                        	<img src="{{ url_for('static', filename='LearnIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=learn class="title-link">
-                    	<h3 class="title">Learn</h3>
-					</a>
-                    <span class="post">Build a solid understanding of data structures through videos, animations, and explanations.</span>
-                </div>
-            </div>
-     
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=practice class="img-link">
-                        	<img src="{{ url_for('static', filename='PracticeIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=practice class="title-link">
-                    	<h3 class="title">Practice</h3>
-					</a>
-                    <span class="post">Reinforce data structure understanding through repeated exercises and implementations.</span>
-                </div>
-            </div>
-    
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=visualize class="img-link">
-                        	<img src="{{ url_for('static', filename='VisualizeIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=visualize class="title-link">
-                    	<h3 class="title">Visualize</h3>
-					</a>
-                    <span class="post">Deepen understanding of how data structures work in a visual sense through animations and videos.</span>
-                </div>
-            </div> -->
-
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-						<a href=contact class="img-link">
-                        	<img src="{{ url_for('static', filename='ContactIcon1.jpeg') }}">
-						</a>
-                    </div>
-					<a href=contact class="title-link">
-                    	<h3 class="title">Contact</h3>
-					</a>
-                    <span class="post">Found a bug? Have questions about Data Structures? Reach out to us and we will be happy to help!</span>
-                </div>
-            </div>
-
-        </div>
-	<script src="{{ url_for('static', filename='js/jquery_min.js') }}"></script>
-  	<script src="{{ url_for('static', filename='js/popper.js') }}"></script>
-  	<script src="{{ url_for('static', filename='js/bootstrap_min.js') }}"></script>
-  	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 	</body>
 </html>
 
