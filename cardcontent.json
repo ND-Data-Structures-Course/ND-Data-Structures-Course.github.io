@@ -2,8 +2,8 @@
     {"Card_Title": "Introduction to Programming Recap",
         "Subheadings":[
             {"Title":"Introduction"},
-            {"Title":"Programming Abstractions and Data Structures"},
-            {"Title":"The Main Categories of Programming Languages"},
+            {"Title":"Abstractions and Data Structures"},
+            {"Title":"Categories of Programming Languages"},
             {"Title":"Basics of C / Python"},
             {"Title":"Why is Data Structures so Important"},
             {"Title":"Practice"}
@@ -30,10 +30,10 @@
             {"Title":"Practice"}
         ]
     },
-    {"Card_Title": "Array Data Structure",
+    {"Card_Title": "Arrays",
         "Subheadings":[
             {"Title":"Introduction"},
-            {"Title":"Indexing and Traversing an Array"},
+            {"Title":"Indexing and Traversing"},
             {"Title":"2-D Array"},      
             {"Title":"Practice"}
         ]   
@@ -41,7 +41,7 @@
     {"Card_Title": "Recursion and Dynamic Programming",
         "Subheadings":[
             {"Title":"Introduction"},
-            {"Title":"Keeping Track of Memory with Recursive Calls"},
+            {"Title":"Tracing Memory with Recursion"},
             {"Title":"Recursive Callback Function"},
             {"Title":"Base Case"},
             {"Title":"Key Uses and Advantages"},        
@@ -70,7 +70,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Dequeue",
+    {"Card_Title": "Dequeue",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementations"},
@@ -80,7 +80,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Priority Queue",
+    {"Card_Title": "Priority Queue",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementations"},
@@ -90,7 +90,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Basic Sort",
+    {"Card_Title": "Basic Sort",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -99,7 +99,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Hash Table",
+    {"Card_Title": "Hash Table",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Advantages and Disadvantages"},
@@ -110,25 +110,16 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Trees and Tree Traversal",
+    {"Card_Title": "Trees and Tree Traversal",
         "Subheadings":[
             {"Title":"Introduction"},
-            {"Title":"In-Order, Pre-Order, and Post-Order"},
+            {"Title":"In-Order, Pre-Order, Post-Order"},
             {"Title":"Advantages and Disadvantages"},
             {"Title":"Examples"},     
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Binary Search Tree",
-        "Subheadings":[
-            {"Title":"Introduction"},
-            {"Title":"Insertions and Deletions"},
-            {"Title":"Advantages and Disadvantages"},
-            {"Title":"Examples"},     
-            {"Title":"Practice"}
-        ] 
-    },
-    {"Heading": "B Tree",
+    {"Card_Title": "Binary Search Tree",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Insertions and Deletions"},
@@ -137,7 +128,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Red Black Tree",
+    {"Card_Title": "B Tree",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Insertions and Deletions"},
@@ -146,7 +137,16 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Singly Linked List",
+    {"Card_Title": "Red Black Tree",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Insertions and Deletions"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Card_Title": "Singly Linked List",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementation"},
@@ -156,7 +156,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Doubly Linked List",
+    {"Card_Title": "Doubly Linked List",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementation"},
@@ -166,7 +166,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Quick Sort",
+    {"Card_Title": "Quick Sort",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -175,7 +175,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Big O Notation",
+    {"Card_Title": "Big O Notation",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Formal Definition"},
@@ -186,7 +186,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Structs",
+    {"Card_Title": "Structs",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Advantages and Disadvantages"},
@@ -196,7 +196,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Depth First Traversal",
+    {"Card_Title": "Depth First Traversal",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Recursive Call"},
@@ -205,7 +205,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Breadth First Traversal",
+    {"Card_Title": "Breadth First Traversal",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Queue Implementation"},
@@ -214,7 +214,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Minimum and Maximum Heap",
+    {"Card_Title": "Minimum and Maximum Heap",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -223,7 +223,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Djikstra's Algorithm",
+    {"Card_Title": "Djikstra's Algorithm",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -232,7 +232,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Bubble Sort",
+    {"Card_Title": "Bubble Sort",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -241,7 +241,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Insertion Sort",
+    {"Card_Title": "Insertion Sort",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -250,7 +250,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Merge Sort",
+    {"Card_Title": "Merge Sort",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -259,7 +259,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Hash Functions",
+    {"Card_Title": "Hash Functions",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Rehashing Algorithm"},
@@ -269,7 +269,7 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Heading": "Graphs",
+    {"Card_Title": "Graphs",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Directed vs Undirected"},
