@@ -22,7 +22,7 @@
 				<div class="col-md-8 order-md-last">
 					<div class="row">
 						<div class="col-md-6 text-center">
-							<a class="navbar-brand" href=/>School of Notre Dame <span>CSE-20312 Data Structures</span></a>
+							<a class="navbar-brand" href=/>University of Notre Dame <span>CSE-20312 Data Structures</span></a>
 						</div>
 					</div>
 				</div>
@@ -70,16 +70,15 @@
 	                            <div class="card">
 	                                <div class="card-body text-center">
 	                                	<h4 class="card-title">{{card.Card_Title}}</h4>
-	                                	<p class="card-text"> INSERT IMAGE HERE </p>
-	                                    <!--<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p> --> 
+	                                    <p><img class=" img-fluid" src="static/cardImages/{{card.Card_Image}}" alt="card image"></p>
 	                                </div>
 	                            </div>
 	                        </div>
 	                        <div class="backside">
 	                            <div class="card">
-	                                <div class="card-body text-center mt-4">
+	                                <div class="card-body text-center mb-4">
 	                                    <h4 class="card-title">{{card.Card_Title}}</h4>
-	                                    <p class="card-text"> SAMPLE SUBTEXT / DESCRIPTION </p>
+	                                    <p class="card-text">{{card.Card_Subtext}}</p>
 	                                    <ul class="list-inline">
 	                                    	{% for tag in card.Subheadings %}
 	                                    		<li class="list-inline-item">
