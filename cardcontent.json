@@ -1,5 +1,7 @@
 [
-    {"Card_Title": "Introduction to Programming Recap",
+    {"Card_Title": "Introduction to Programming Recap", 
+        "Card_Subtext":"Programming is used for any goal-oriented activity or problem requiring, or benefitting from computing machinery.",
+        "Card_Image":"1 Intro to Programming.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Abstractions and Data Structures"},
@@ -9,18 +11,9 @@
             {"Title":"Practice"}
     ]   
     },
-
-    {"Card_Title": "Memory Layout and C Pointers",
-        "Subheadings":[
-            {"Title":"Introduction"},
-            {"Title":"What is a pointer?"},
-            {"Title":"Memory Layout in a Computer"},
-            {"Title":"Using Pointers"},
-            {"Title":"Practice"}
-        ]
-    },
-
     {"Card_Title": "Dynamic vs Static Memory Allocation",
+        "Card_Subtext":"Static Allocation occurs automatically and stores memory on the stack while Dynamic Allocation is done manually and uses the heap.",
+        "Card_Image":"2 Dynamic vs Static Memory Allocation.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"What is Memory Allocation?"},
@@ -30,7 +23,20 @@
             {"Title":"Practice"}
         ]
     },
+    {"Card_Title": "Memory Layout and C Pointers",
+        "Card_Subtext":"A pointer is a variable that stores the address of another variable. Under the hood of the computer, understanding the memory layout when using pointers is crucial.",
+        "Card_Image":"3 Memory Layout and C Pointers.png",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"What is a pointer?"},
+            {"Title":"Memory Layout in a Computer"},
+            {"Title":"Using Pointers"},
+            {"Title":"Practice"}
+        ]
+    },
     {"Card_Title": "Arrays",
+        "Card_Subtext":"Arrays are a collection of elements that are stored in contiguous memory locations.",
+        "Card_Image":"4 Arrays.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Indexing and Traversing"},
@@ -39,6 +45,8 @@
         ]   
     },
     {"Card_Title": "Recursion and Dynamic Programming",
+        "Card_Subtext":"Recursion is a method that solves problems by breaking into smaller solutions of itself. A recursive function calls itself internally, and uses a base case.",
+        "Card_Image":"5 Recursion and Dynamic Programming.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Tracing Memory with Recursion"},
@@ -49,6 +57,8 @@
         ]
     },
     {"Card_Title": "Stack",
+        "Card_Subtext":"A linear data structure that follows the Last In, First Out (LIFO) principle for insertions and deletions.",
+        "Card_Image":"6 Stack.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"LIFO"},
@@ -60,6 +70,8 @@
         ] 
     },
     {"Card_Title": "Queue",
+        "Card_Subtext":"A linear data structure that follows the First In, First Out (LIFO) principle for insertions and deletions.",
+        "Card_Image":"7 Queue.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"FIFO"},
@@ -71,6 +83,8 @@
         ] 
     },
     {"Card_Title": "Dequeue",
+        "Card_Subtext":"Dequeue is a double ended queue. Data can be inserted and deleted from the head or rear.",
+        "Card_Image":"8 Dequeue.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementations"},
@@ -81,6 +95,8 @@
         ] 
     },
     {"Card_Title": "Priority Queue",
+        "Card_Subtext":"Similar to a queue, but the elements are associated with a priority. Elements are served in order of their priority.",
+        "Card_Image":"9 Priority Queue.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementations"},
@@ -90,27 +106,9 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Card_Title": "Basic Sort",
-        "Subheadings":[
-            {"Title":"Introduction"},
-            {"Title":"Time Complexity"},
-            {"Title":"Advantages and Disadvantages"},
-            {"Title":"Examples"},     
-            {"Title":"Practice"}
-        ] 
-    },
-    {"Card_Title": "Hash Table",
-        "Subheadings":[
-            {"Title":"Introduction"},
-            {"Title":"Advantages and Disadvantages"},
-            {"Title":"Search, Insert, Delete"},
-            {"Title":"Rehashing and Determining Size"},
-            {"Title":"Linear Probing"},
-            {"Title":"Examples"},     
-            {"Title":"Practice"}
-        ] 
-    },
     {"Card_Title": "Trees and Tree Traversal",
+        "Card_Subtext":"Trees are non-linear, hierarchal data structures composed of a set of nodes that represent values. Travesing a tree is a process of visiting each node in the tree.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"In-Order, Pre-Order, Post-Order"},
@@ -120,6 +118,8 @@
         ] 
     },
     {"Card_Title": "Binary Search Tree",
+        "Card_Subtext":"A rooted binary tree data structure that is ordered by left subtree nodes with values less than the root node, and right subrtree values greater than the root node.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Insertions and Deletions"},
@@ -129,6 +129,8 @@
         ] 
     },
     {"Card_Title": "B Tree",
+        "Card_Subtext":"A sorted and self-balancing tree data structure that allows for nodes with more than two children.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Insertions and Deletions"},
@@ -138,6 +140,8 @@
         ] 
     },
     {"Card_Title": "Red Black Tree",
+        "Card_Subtext":"A self-balancing binary tree where each node has an extra bit that is interpreted as either the color red or black. ",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Insertions and Deletions"},
@@ -147,6 +151,8 @@
         ] 
     },
     {"Card_Title": "Singly Linked List",
+        "Card_Subtext":"A linked data structure that contains a set of nodes where each node contains a pointer to the next node in the list.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementation"},
@@ -157,6 +163,8 @@
         ] 
     },
     {"Card_Title": "Doubly Linked List",
+        "Card_Subtext":"A linked data structure that consists a set of sequentially linked nodes. Each node is a struct that contain pointers to the previous and next nodes in the list.", 
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementation"},
@@ -166,16 +174,9 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Card_Title": "Quick Sort",
-        "Subheadings":[
-            {"Title":"Introduction"},
-            {"Title":"Time Complexity"},
-            {"Title":"Advantages and Disadvantages"},
-            {"Title":"Examples"},     
-            {"Title":"Practice"}
-        ] 
-    },
     {"Card_Title": "Big O Notation",
+        "Card_Subtext":"A tool used in programming to measure efficiency by calculating the time complexity of an algorithm.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Formal Definition"},
@@ -187,6 +188,8 @@
         ] 
     },
     {"Card_Title": "Structs",
+        "Card_Subtext":"Structs are a user defined data type that allows a programmer to group several related variables in one location.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Advantages and Disadvantages"},
@@ -196,7 +199,9 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Card_Title": "Depth First Traversal",
+    {"Card_Title": "Depth First Search",
+        "Card_Subtext":"DFS uses a stack to keep track of visited nodes and searches unvisited, adjacent nodes in depthward motion.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Recursive Call"},
@@ -205,7 +210,9 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Card_Title": "Breadth First Traversal",
+    {"Card_Title": "Breadth First Search",
+        "Card_Subtext":"BFS is a graph traversal algorithm for searching a tree data structure that moves layer by layer.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Queue Implementation"},
@@ -215,6 +222,8 @@
         ] 
     },
     {"Card_Title": "Minimum and Maximum Heap",
+        "Card_Subtext":"Min and Max Heaps are methods used to keep track of either the min or max value in a Binary Tree",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -224,6 +233,19 @@
         ] 
     },
     {"Card_Title": "Djikstra's Algorithm",
+        "Card_Subtext":"This algorithm finds the shortest possible path between any two nodes in a directed graph.",
+        "Card_Image":"",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Time Complexity"},
+            {"Title":"Advantages and Disadvantages"},
+            {"Title":"Examples"},     
+            {"Title":"Practice"}
+        ] 
+    },
+    {"Card_Title": "Quick Sort", 
+        "Card_Subtext":"A divide and conquer algorithm that works by splitting an array into smaller subarrays and ordering them based on a pivot element.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -233,6 +255,8 @@
         ] 
     },
     {"Card_Title": "Bubble Sort",
+        "Card_Subtext":"Simplest sorting algorithm that works by repeatedly swapping adjacent elements if they are not in correct order.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -242,6 +266,8 @@
         ] 
     },
     {"Card_Title": "Insertion Sort",
+        "Card_Subtext":"Simple sorting algoritm that chooses one element at a time, and places it at its closest correct order in each iteration.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -251,6 +277,8 @@
         ] 
     },
     {"Card_Title": "Merge Sort",
+        "Card_Subtext":"Divide and conquer approach that recursively divides the array into equal halves and combines the subarrays once each subarray has one element.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -259,10 +287,14 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Card_Title": "Hash Functions",
+    {"Card_Title": "Hash Table",
+        "Card_Subtext":"A lightweight method that uses a hash function to map key:value pairs to a specific index in a table that allows for convenient insertion, deletion, and searching.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Rehashing Algorithm"},
+            {"Title":"Search, Insert, Delete"},
+            {"Title":"Rehashing and Determining Size"},
             {"Title":"Advantages and Disadvantages"},
             {"Title":"Complexity"},
             {"Title":"Examples"},     
@@ -270,6 +302,8 @@
         ] 
     },
     {"Card_Title": "Graphs",
+        "Card_Subtext":"A graph is a non-linear data structure composed of vertices and edges to represent relationships between objects.",
+        "Card_Image":"",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Directed vs Undirected"},
