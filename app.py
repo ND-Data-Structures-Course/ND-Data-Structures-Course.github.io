@@ -6,14 +6,19 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
-# DataBase URL's
+# Database URL's - Course Specific
+
 HOME_PAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/cardcontent.json"
+            
+# End of Database URL's 
 
 @app.route('/', methods=['POST','GET'])
 def index():
     response = requests.get(HOME_PAGE_URL)
     data = response.json()
     return render_template("index.html", chapters=data)
+
+
 
 '''
 @app.route('/learn', methods=['POST','GET'])
