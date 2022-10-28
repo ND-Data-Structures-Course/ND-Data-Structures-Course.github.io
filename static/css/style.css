@@ -118,14 +118,16 @@ section .section-title {
 .backside .card {
     max-height: 325px;
     background: #FDB931 8% ;
-    overflow-x: scroll
+    overflow-x: scroll;
+    box-shadow: 5px 10px;
+
     
 }
 .frontside .card{
   min-height: 312px;
   background: #112335;
   border-radius: 25px;
- 
+  box-shadow: 5px 10px;
   
 }
 
