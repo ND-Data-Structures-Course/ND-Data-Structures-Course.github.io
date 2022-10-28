@@ -189,7 +189,7 @@
     },
     {"Card_Title": "Structs",
         "Card_Subtext":"Structs are a user defined data type that allows a programmer to group several related variables in one location.",
-        "Card_Image":"Structs.png",
+        "Card_Image":"Struct.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Advantages and Disadvantages"},
@@ -223,7 +223,7 @@
     },
     {"Card_Title": "Minimum and Maximum Heap",
         "Card_Subtext":"Min and Max Heaps are methods used to keep track of either the min or max value in a Binary Tree",
-        "Card_Image":"MinimumAndMaximumHeap.png",
+        "Card_Image":"MinAndMaxHeaps.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
