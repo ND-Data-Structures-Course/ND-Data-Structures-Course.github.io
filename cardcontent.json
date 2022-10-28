@@ -1,7 +1,7 @@
 [
     {"Card_Title": "Introduction to Programming Recap", 
         "Card_Subtext":"Programming is used for any goal-oriented activity or problem requiring, or benefitting from computing machinery.",
-        "Card_Image":"1 Intro to Programming.png",
+        "Card_Image":"IntroToProgramming.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Abstractions and Data Structures"},
@@ -13,7 +13,7 @@
     },
     {"Card_Title": "Dynamic vs Static Memory Allocation",
         "Card_Subtext":"Static Allocation occurs automatically and stores memory on the stack while Dynamic Allocation is done manually and uses the heap.",
-        "Card_Image":"2 Dynamic vs Static Memory Allocation.png",
+        "Card_Image":"DynamicVsStaticMemoryAllocation.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"What is Memory Allocation?"},
@@ -25,7 +25,7 @@
     },
     {"Card_Title": "Memory Layout and C Pointers",
         "Card_Subtext":"A pointer is a variable that stores the address of another variable. Under the hood of the computer, understanding the memory layout when using pointers is crucial.",
-        "Card_Image":"3 Memory Layout and C Pointers.png",
+        "Card_Image":"MemoryLayoutAndCPointers.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"What is a pointer?"},
@@ -36,7 +36,7 @@
     },
     {"Card_Title": "Arrays",
         "Card_Subtext":"Arrays are a collection of elements that are stored in contiguous memory locations.",
-        "Card_Image":"4 Arrays.png",
+        "Card_Image":"Arrays.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Indexing and Traversing"},
@@ -46,7 +46,7 @@
     },
     {"Card_Title": "Recursion and Dynamic Programming",
         "Card_Subtext":"Recursion is a method that solves problems by breaking into smaller solutions of itself. A recursive function calls itself internally, and uses a base case.",
-        "Card_Image":"5 Recursion and Dynamic Programming.png",
+        "Card_Image":"RecursionAndDynamicProgramming.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Tracing Memory with Recursion"},
@@ -58,7 +58,7 @@
     },
     {"Card_Title": "Stack",
         "Card_Subtext":"A linear data structure that follows the Last In, First Out (LIFO) principle for insertions and deletions.",
-        "Card_Image":"6 Stack.png",
+        "Card_Image":"Stack.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"LIFO"},
@@ -71,7 +71,7 @@
     },
     {"Card_Title": "Queue",
         "Card_Subtext":"A linear data structure that follows the First In, First Out (LIFO) principle for insertions and deletions.",
-        "Card_Image":"7 Queue.png",
+        "Card_Image":"Queue.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"FIFO"},
@@ -84,7 +84,7 @@
     },
     {"Card_Title": "Dequeue",
         "Card_Subtext":"Dequeue is a double ended queue. Data can be inserted and deleted from the head or rear.",
-        "Card_Image":"8 Dequeue.png",
+        "Card_Image":"Dequeue.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementations"},
@@ -96,7 +96,7 @@
     },
     {"Card_Title": "Priority Queue",
         "Card_Subtext":"Similar to a queue, but the elements are associated with a priority. Elements are served in order of their priority.",
-        "Card_Image":"9 Priority Queue.png",
+        "Card_Image":"PriorityQueue.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementations"},
