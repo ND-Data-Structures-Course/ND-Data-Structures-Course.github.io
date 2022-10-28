@@ -116,19 +116,8 @@ section .section-title {
 
 
 .backside .card {
-    max-height: 325px;
-    background: #FDB931 8% ;
-    overflow-x: scroll;
-    box-shadow: 5px 10px;
-
-    
-}
-.frontside .card{
-  min-height: 312px;
-  background: #112335;
-  border-radius: 25px;
-  box-shadow: 5px 10px;
-  
+    min-height: 312px;
+    background: #112335 !important;
 }
 
 .backside .card a {
@@ -146,6 +135,6 @@ section .section-title {
 }
 
 .frontside .card .card-body img {
-    width: 220px;
-    height: 220px;
+    width: 220px !important;
+    height: 220px !important;
 }
