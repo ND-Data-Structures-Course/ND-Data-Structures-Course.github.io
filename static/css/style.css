@@ -6,16 +6,16 @@
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
+    background-color: #FFD700;
+    border-color: #FFD700;
     box-shadow: none;
     outline: none;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    background-color: #FDB931 8%;
+    border-color: #FFD700;
 }
 
 section {
@@ -24,15 +24,12 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #005688;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 
-#team .card {
-    border: none;
-    background: #ffffff;
-}
+
 
 .image-flip:hover .backside,
 .image-flip.hover .backside {
@@ -71,6 +68,7 @@ section .section-title {
     -ms-transform: rotateY(0deg);
     z-index: 2;
     margin-bottom: 30px;
+    
 }
 
 .backside {
@@ -87,7 +85,17 @@ section .section-title {
     -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
-
+/*.card{
+  position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+  }*/
+  
+  
+  
 .frontside,
 .backside {
     -webkit-backface-visibility: hidden;
@@ -106,7 +114,7 @@ section .section-title {
     transform-style: preserve-3d;
 }
 
-.frontside .card,
+
 .backside .card {
     min-height: 312px;
     background: #112335 !important;
@@ -114,12 +122,16 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: black!important;
 }
 
-.frontside .card .card-title,
-.backside .card .card-title {
+.frontside .card .card-title
+ {
     color: #007b5e !important;
+
+}
+.backside .card .card-title{
+  color: black;
 }
 
 .frontside .card .card-body img {
