@@ -130,7 +130,7 @@
     },
     {"Card_Title": "B Tree",
         "Card_Subtext":"A sorted and self-balancing tree data structure that allows for nodes with more than two children.",
-        "Card_Image":"",
+        "Card_Image":"BTree.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Insertions and Deletions"},
@@ -141,7 +141,7 @@
     },
     {"Card_Title": "Red Black Tree",
         "Card_Subtext":"A self-balancing binary tree where each node has an extra bit that is interpreted as either the color red or black. ",
-        "Card_Image":"",
+        "Card_Image":"RedBlackTree.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Insertions and Deletions"},
@@ -152,7 +152,7 @@
     },
     {"Card_Title": "Singly Linked List",
         "Card_Subtext":"A linked data structure that contains a set of nodes where each node contains a pointer to the next node in the list.",
-        "Card_Image":"",
+        "Card_Image":"SinglyLinkedList.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementation"},
@@ -164,7 +164,7 @@
     },
     {"Card_Title": "Doubly Linked List",
         "Card_Subtext":"A linked data structure that consists a set of sequentially linked nodes. Each node is a struct that contain pointers to the previous and next nodes in the list.", 
-        "Card_Image":"",
+        "Card_Image":"DoublyLinkedList.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Design and Implementation"},
@@ -176,7 +176,7 @@
     },
     {"Card_Title": "Big O Notation",
         "Card_Subtext":"A tool used in programming to measure efficiency by calculating the time complexity of an algorithm.",
-        "Card_Image":"",
+        "Card_Image":"BigONotation.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Formal Definition"},
@@ -189,7 +189,7 @@
     },
     {"Card_Title": "Structs",
         "Card_Subtext":"Structs are a user defined data type that allows a programmer to group several related variables in one location.",
-        "Card_Image":"",
+        "Card_Image":"Structs.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Advantages and Disadvantages"},
@@ -201,7 +201,7 @@
     },
     {"Card_Title": "Depth First Search",
         "Card_Subtext":"DFS uses a stack to keep track of visited nodes and searches unvisited, adjacent nodes in depthward motion.",
-        "Card_Image":"",
+        "Card_Image":"DepthFirstSearch.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Recursive Call"},
@@ -212,7 +212,7 @@
     },
     {"Card_Title": "Breadth First Search",
         "Card_Subtext":"BFS is a graph traversal algorithm for searching a tree data structure that moves layer by layer.",
-        "Card_Image":"",
+        "Card_Image":"BreadthFirstSearch.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Queue Implementation"},
@@ -223,7 +223,7 @@
     },
     {"Card_Title": "Minimum and Maximum Heap",
         "Card_Subtext":"Min and Max Heaps are methods used to keep track of either the min or max value in a Binary Tree",
-        "Card_Image":"",
+        "Card_Image":"MinimumAndMaximumHeap.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -232,9 +232,9 @@
             {"Title":"Practice"}
         ] 
     },
-    {"Card_Title": "Djikstra's Algorithm",
+    {"Card_Title": "Dijkstra's Algorithm",
         "Card_Subtext":"This algorithm finds the shortest possible path between any two nodes in a directed graph.",
-        "Card_Image":"",
+        "Card_Image":"DijkstrasAlgorithm.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Time Complexity"},
@@ -289,7 +289,7 @@
     },
     {"Card_Title": "Hash Table",
         "Card_Subtext":"A lightweight method that uses a hash function to map key:value pairs to a specific index in a table that allows for convenient insertion, deletion, and searching.",
-        "Card_Image":"",
+        "Card_Image":"HashTable.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Rehashing Algorithm"},
@@ -303,7 +303,7 @@
     },
     {"Card_Title": "Graphs",
         "Card_Subtext":"A graph is a non-linear data structure composed of vertices and edges to represent relationships between objects.",
-        "Card_Image":"",
+        "Card_Image":"Graphs.png",
         "Subheadings":[
             {"Title":"Introduction"},
             {"Title":"Directed vs Undirected"},
