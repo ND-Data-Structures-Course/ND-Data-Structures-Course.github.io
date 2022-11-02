@@ -61,7 +61,7 @@
 	<!-- Topics -->
 	<section id="team" class="pb-5">
 	    <div class="container">
-	        <center><h5 class="section-title h1">TOPICS</h5></center>
+	        <center><h5 class="section-title h1">TOPICS</h5>
 	        <div class="row">
 	        	{% for card in chapters %}
 	            <!-- Topic-->
@@ -81,14 +81,11 @@
 	                                <div class="card-body text-center mb-4">
 	                                    <h4 class="card-title">{{card.Card_Title}}</h4>
 	                                    <p class="card-text">{{card.Card_Subtext}}</p>
-	                                    <ul class="list-inline">
+	                                    	<p class="list-inline">
 	                                    	{% for tag in card.Subheadings %}
-	                                    		<li class="list-inline-item">
-	    											<a href="#" class="btn btn-secondary">{{tag.Title}}</a> <p>   </p>
-	    										</li>
+	    											<a href="#" class="btn-xs btn-primary rounded"> {{tag.Title}} </a> <a> </a>
 	    									{% endfor %}
-	                                    </ul>
-	                                    <a href="#" class="btn btn-primary btn-sm">READ MORE</i></a>
+	    									</p>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -98,6 +95,7 @@
 	            <!-- ./Topic -->
 	            {% endfor %}
 	        </div>
+	    	</center>
 	    </div>
 	</section>
 	<!-- Topics -->
