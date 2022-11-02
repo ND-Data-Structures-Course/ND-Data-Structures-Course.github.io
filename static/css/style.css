@@ -110,15 +110,16 @@ section .section-title {
 
 
 .backside .card {
-    height: 350px;
-    width: 280px;
+    height: 400px;
+    width: 350px;
     background: #112335;
     overflow-x: scroll;
     border-radius: 10px; 
+    justify-content: left;
 }
 .frontside .card{
-  height: 350px;
-  width: 280px;
+  height: 400px;
+  width: 350px;
   background: #112335;
   border-radius: 10px; 
 }
@@ -127,45 +128,52 @@ section .section-title {
   flex-direction: row;
 }
 .backside .card a {
-    font-size: 18px;
+    font-size: 16px;
     color: white !important;  
 }
 
 .frontside .card .card-title{
-    font-weight: bold;
+    font-weight:600;
     font-size: 24px;
     color: #cebf95;
     text-align: left;
-
+    font-family: 'libre-franklin', sans-serif;
 }
 .backside .card .card-title{
-  text-align: left;
+  text-align: 600;
   font-weight: bold;
   font-size: 24px;
   color: #cebf95;
-  font-family: 'Libre Franklin', sans-serif;                                               
+  text-align: left;
+  font-family: 'libre-franklin', sans-serif;   
 }
 
 .frontside .card .card-body img {
-    width: 220px;
-    height: 220px;
+    min-width: 220px;
+    min-height: 220px;
+    margin-bottom: 30px;
 }
 .card-text{
   color: white;
-  font-weight: bold;
+  text-align: left;
+  font-weight: medium;
   font-size: 16px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'libre-franklin', sans-serif;
                                                 
 }
 
  .list-inline-item .btn-secondary {
   background-color: #a9914f !important;
   border-radius: 10px;
-  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:0;
+  padding-bottom:0;
   color: white;
-  font-weight: bold;
+  text-align: left !important;
+  font-weight: medium;
   font-size: 16px;
-  font-family: 'Libre Franklin', sans-serif;                                              
-}
+  font-family: 'libre-franklin', sans-serif;                                           
+} 
 
 
