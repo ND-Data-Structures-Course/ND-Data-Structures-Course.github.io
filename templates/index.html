@@ -51,6 +51,7 @@
 	        <ul class="navbar-nav m-auto">
 	        	<li class="nav-item active"><a href=/ class="nav-link">Home</a></li>
 	            <li class="nav-item"><a href=contact class="nav-link">Contact</a></li>
+				<li class="nav-item"><a href="{{url_for('admin')}}" class="nav-link">Admin</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -61,7 +62,8 @@
 	<!-- Topics -->
 	<section id="team" class="pb-5">
 	    <div class="container">
-	        <center><h5 class="section-title h1">TOPICS</h5>
+	        <center>
+			<div>{%block content%}{%endblock%}</div>
 	        <div class="row">
 	        	{% for card in chapters %}
 	            <!-- Topic-->
