@@ -3,11 +3,8 @@ import json
 import os
 import sys
 from flask import Flask, render_template, request, redirect
-from flask_wtf import FlaskForm 
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired
+
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "data_structures"
 # Database URL's - Course Specific
 
 HOME_PAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/cardcontent.json"
@@ -19,6 +16,7 @@ def index():
     response = requests.get(HOME_PAGE_URL)
     data = response.json()
     return render_template("index.html", chapters=data)
+
 @app.route('/admin')
 def admin():
     return render_template('admin.html')

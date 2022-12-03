@@ -1,15 +1,51 @@
 {% extends 'index.html' %}
 {% block content %}
-<form action="/action_page.php">
-    <label for="fname">First Name:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="fname">Last Name:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br>
-    <label for="fname">Email:</label><br>
-    <input type="text" id="email" name="email" value=""><br>
-    <label for="lname">PassWord:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br><br>
-    <input type="Login" value="Login">
-  </form>
+<button class="accordion">Card Data</button>
+<div class="panel">
+    <form class"input_form">
+
+        <div>
+        <label for="Card_Title">Card Title</label>
+        <input type="text" name="Card_Title">
+        </div>
+        <div>
+        <label for="Card_Subtext">Card Subtext</label>
+        <input type="text" name="Card_Subtext">
+        </div>
+        <div>
+        <input type="button" value="Upload Card Image">
+        </div>
+        <div>
+            <label for="Subheadings"> SubHeadings</label> 
+        </div>
+        <div>   
+        <textarea name="CardsTopics" rows="12" cols="60" placeholder=" Enter Text Separated by commas"></textarea>
+        </div>
+        </form>
+</div>
+
+<button class="accordion">Learning Data</button>
+<div class="panel">
+    <form class"input_form">
+
+        <div>
+        <label for="Chapter_Title">Chapter Title</label>
+        <input type="text" name="Chapter_Title">
+        </div>
+        <div>
+        <div>
+        <label for="Chapter_ID">Chapter ID</label>
+        <input type="text" name="Chapter_ID">
+        </div>
+        <div>
+            <input type="button" value="Video URL">
+            </div>
+            <div>
+        <div>   
+        <textarea name="Cahpter_content" rows="12" cols="60" placeholder=" Enter chapter Content here..."></textarea>
+        </div>
+        </form>
+</div>
+</div>
 
 {% endblock %}

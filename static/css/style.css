@@ -1,9 +1,36 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-#team {
-    background: #eee !important;
-}
 
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .input_form{
+    align-content: left;
+  }
+  input[type=text] {
+    align-content: left;
+    padding:10px;
+    margin:10px 0; 
+    border:0; 
+    border-bottom:1px solid #eee;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width:50%;
+  }
+  
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #FFD700;
