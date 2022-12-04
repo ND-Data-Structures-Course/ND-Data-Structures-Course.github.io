@@ -21,6 +21,10 @@ def index():
 def admin():
     return render_template('admin.html')
 
+@app.route('/learn')
+def learn():
+    return render_template('learn.html')
+
 '''
 @app.route('/learn', methods=['POST','GET'])
 def learn_page():
