@@ -12,7 +12,10 @@
     outline: none;
     transition: 0.4s;
   }
-  .checker{
+  #video{
+    margin:25px
+  }
+  .cheker{
     background-color: red;
   }
   .active, .accordion:hover {
@@ -204,5 +207,6 @@ section .section-title {
   font-size: 16px;
   font-family: 'libre-franklin', sans-serif;                                           
 } 
+
 
 

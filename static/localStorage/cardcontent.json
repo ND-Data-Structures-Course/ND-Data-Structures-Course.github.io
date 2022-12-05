@@ -1,0 +1,28 @@
+[
+    {   "ID": "0",
+        "Card_Title": "Introduction to Programming Recap", 
+        "Card_Subtext":"Programming is used for any goal-oriented activity or problem requiring, or benefitting from computing machinery.",
+        "Card_Image":"IntroToProgramming.png",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"Abstractions and Data Structures"},
+            {"Title":"Categories of Programming Languages"},
+            {"Title":"Basics of C / Python"},
+            {"Title":"Why is Data Structures so Important"},
+            {"Title":"Practice"}
+    ]   
+    },
+    {   "ID": "1",
+        "Card_Title": "Dynamic vs Static Memory Allocation",
+        "Card_Subtext":"Static Allocation occurs automatically and stores memory on the stack while Dynamic Allocation is done manually and uses the heap.",
+        "Card_Image":"DynamicVsStaticMemoryAllocation.png",
+        "Subheadings":[
+            {"Title":"Introduction"},
+            {"Title":"What is Memory Allocation?"},
+            {"Title":"Static Allocation"},
+            {"Title":"Dynamic Allocation"},
+            {"Title":"Memory Tradeoffs"},
+            {"Title":"Practice"}
+        ]
+    }
+]

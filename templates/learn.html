@@ -1,7 +1,312 @@
 {%extends 'index.html'%}
 
-{%block content%}
-	<section>
-		<div class ="cheker">Checking</div>
-	</section>
+{%block formatlearn%}
+<style>
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .twoColumn {
+    width: 50%;
+  }
+  
+  .iconColumn {
+    width: 50px;
+  }
+  
+  .fillColumn{
+    width: auto;
+  }
+  
+  h1 {
+    font-family: 'Arial Narrow';
+    color: #11233E;
+    font-weight: Bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  
+  h2{
+    font-family: 'Arial Narrow';
+    color: #A9914F;
+    font-weight: Bold;
+    font-size: 36px;
+    margin-bottom: 0px;
+    max-width: 1200px;
+  }
+  
+  h4{
+    font-family: 'Libre Franklin';
+    color: #11233E;
+    font-weight: Bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+  }
+  
+  p {
+    font-family: 'Libre Franklin';
+    color: #707070;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 1200px;
+    margin-top: 5px;
+  }
+  
+  xmp {
+    font-family: 'Courier New';
+    color: #333333;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 1200px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    /* Wraps to container width */
+    white-space: pre-wrap;
+  }
+  
+  a {
+    color: #1C4F8F;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  li {
+    font-family: "libre franklin";
+    font-size: 20px;
+  }
+  
+  code {
+    font-family: "Courier New";
+    color: #333333;
+    font-size: inherit;
+    background-color: #F2F2F2;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+  }
+  
+  .quickLink {
+    color: #1C4F8F;
+    margin-bottom: 60px;
+  }
+  
+  .codeBlock {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    margin-bottom: 45px;
+  }
+  
+  .codeBlock h4 {
+    font-family: 'Courier new';
+    font-weight: normal;
+  }
+  
+  .codeBlock .header img{
+    width: 24px;
+    height: 24px;
+    float: right;
+  }
+  
+  .codeBlock .header svg{
+    width: 24px;
+    height: 24px;
+    float: right;
+    fill: #A9914F;
+  }
+  
+  .codeBlock .header {
+    background-color: #E2E2E2;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+  }
+  
+  .codeBlock .body {
+    padding: 5px;
+  }
+  
+  .codeBlock ol{
+    margin-left:25px;
+  }
+  
+  .codeBlock li { 
+    font-family: "Courier New";
+    color: #A9914F;
+    font-size: 18px;
+  }
+  
+  .emphasized {
+    border-radius: 15px;
+    max-width : 10px;
+    width: 950px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right:50px;
+    display:flex;
+  }
+  
+  .iconColumn img{
+    margin-top:7px;
+    width: 24px;
+    float: left;
+    color: red;
+  }
+  
+  .iconColumn svg{
+    margin-top:7px;
+    width: 24px;
+    float: left;
+    fill: inherit;
+  }
+  
+  .important {
+    background-color: #EDF2F9;
+    fill: #1C4F8F;
+  }
+  .caution {
+    background-color: #F4F0D6;
+    fill: #A9914F;
+  }
+  .good {
+    background-color: #E2F0E5;
+    fill:#166C41;
+  }
+  .bad {
+    background-color: #F5E5E5;
+    fill:#7B0000;
+  }
+  
+  label {
+    margin-bottom:0px;
+    padding-bottom:0px;
+    height: min;
+    font-family: 'Libre Franklin';
+    color: #707070;
+    font-size: 14px;
+  }
+  
+   .checkbox {
+      -webkit-appearance: none;
+      background-color: #fafafa;
+      border: 1px solid #cacece;
+      padding: 9px;
+      border-radius: 3px;
+      display: inline-block;
+      position: relative;
+  }
+  
+  .checkbox:checked {
+      -webkit-appearance: none;
+      background-color: #fafafa;
+      border: 1px solid #cacece;
+      padding: 9px;
+      border-radius: 3px;
+      display: inline-block;
+      position: relative;
+  }
+  
+  .checkbox:checked:after {
+    content:'\2713';
+      font-size: 14px;
+    background-color: gold;
+      position: absolute;
+      top: 0px;
+      left: 3px;
+      color: white;
+  } 
+</style>
+{%endblock%}
+
+{%block learn%}
+	{%for data in data_array%}
+		{%if data.ID == Id%}
+		<div class = "content">
+			<h1> {{data.Title}} </h1>
+		  <pre><p class = 'quickLink'><a href ='#bodyText'>Intro</a>     |      <a href = '#code'>Code</a>     |     Video     |     <a href="#highlightedText">Content</a></p></pre>
+		
+		  <h2 id="bodyText">Introduction</h2>
+		<p>{{data.Intro_text}}</p>
+		
+		  <h2 id="code">Code</h2>
+		  <h4>Multiline Code</h4>
+		  <div class = "codeBlock">
+			<div class = "header">
+			  <div class = "twoColumn">
+				<h4>Code Title</h4>
+			  </div>
+			  <div class = "twoColumn">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"/></svg>  
+			  </div>
+			</div>
+			<div class = "body">
+				{%for code in data.Code%}
+			  <ul>
+				<li><xmp>{{code}}</xmp></li>
+				
+			  </ul>
+			  {%endfor%}
+			</div>
+		  </div>
+		  <h2 id="highlightedText">{{data.Title}}</h2>
+		  <div>
+		  {%for topic in data.Body_text%}
+		  <h4>{{topic.Title}}</h4>
+		  <p>{{topic.Text}}</p>
+		  
+		  {%endfor%}  
+		<h4>Comprehension Check</h4>
+		  <p>Given the following block of code:</p>
+		  <div class = "codeBlock">
+			<div class = "header">
+			  <div class = "twoColumn">
+				<h4>Find the error.</h4>
+			  </div>
+			  <div class = "twoColumn">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"/></svg>  
+			  </div>
+			</div>
+			<div class = "body">
+				{%for code in data.Code%}
+			  <ol>
+				<li><xmp>{{code}}</xmp></li>
+				
+			  </ol>
+			  {%endfor%}
+			</div>
+		  </div>
+		  <form>
+			<label for="check"><p>What line has an error?</p></label><br>
+			<input type="text" name="check" id="error">
+			<button onClick="myFunc()">Check Answer</button>
+			<button onClick="myFunc()">Show Answer</button>
+		  </form>
+		  <form>
+			<label for="check"><p>Which lines have errors?</p>
+			<input class = "checkbox" type="checkbox" name="check" id="error">hello</input><br>
+			<input class = "checkbox" type="checkbox" name="check" id="error">hello</input><br>
+			<input class = "checkbox" type="checkbox" name="check" id="error">hello</input><br><br>
+			<button>Check Answer</button>
+			<button>Show Answer</button>
+		  </form>
+		</div>
+		{%endif%}
+		{%endfor%}
+	
 {%endblock%}
