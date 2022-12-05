@@ -5,46 +5,39 @@ import sys
 from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
-
 # Database URL's - Course Specific
 
-HOME_PAGE_URL = "https://raw.githubusercontent.com/ND-Data-Structures-Course/ND-Data-Structures-Course.github.io/master/cardcontent.json"
+HOME_PAGE_URL = "cardcontent.json"
             
 # End of Database URL's 
 
 @app.route('/', methods=['POST','GET'])
 def index():
-    response = requests.get(HOME_PAGE_URL)
-    data = response.json()
+    filename = os.path.join(app.static_folder, 'localStorage', 'cardcontent.json')
+
+    with open(filename) as test_file:
+        data = json.load(test_file)
+
     return render_template("index.html", chapters=data)
 
+@app.route('/admin')
+def admin():
+    return render_template('admin.html')
 
+@app.route('/learn/<ID>')
+def learn(ID):
+    filename = os.path.join(app.static_folder, 'localStorage', 'learnData.json')
+    with open(filename) as test_file:
+        Data = json.load(test_file)
 
-'''
-@app.route('/learn', methods=['POST','GET'])
-def learn_page():
-    response = requests.get(LEARNPAGE_URL)
-    data = response.json()
-    if request.method == 'GET':
-        return render_template("learn.html",chapters=data)
-    if request.method == 'POST':
-        chapter_id=request.form.get('id')
-        chapterData = []
-        chaptertitle = data[int(chapter_id[0])-1].get('Chapters')[int(chapter_id[2])-1].get('Title')
-        response = requests.get(DATA_URL)
-        allData = response.json()
-        for info in allData:
-            if info.get('unique_id') == chapter_id:
-                chapterData = info.get('content')
-        print(chapterData)
-        return render_template("studyguide.html",title=chaptertitle,information=chapterData)
+    return render_template('learn.html',data_array = Data, Id = ID)
 
 
 @app.route('/contact', methods=['POST','GET'])
-def contact_page():
+def contact():
 	return render_template("contact.html") 
 
-
+'''
 @app.route('/practice', methods=['POST','GET'])
 def practice_page():
     response = requests.get(PRACTICE_URL)

@@ -1,5 +1,6 @@
 [
-    {"Card_Title": "Introduction to Programming Recap", 
+    {   "ID": "Introduction to Programming Recap",
+        "Card_Title": "Introduction to Programming Recap", 
         "Card_Subtext":"Programming is used for any goal-oriented activity or problem requiring, or benefitting from computing machinery.",
         "Card_Image":"IntroToProgramming.png",
         "Subheadings":[
@@ -11,7 +12,8 @@
             {"Title":"Practice"}
     ]   
     },
-    {"Card_Title": "Dynamic vs Static Memory Allocation",
+    {   "ID": "Unit 1 - Memory Layout, C Pointers, and Static and Dynamic Memory Allocation",
+        "Card_Title": "Dynamic vs Static Memory Allocation",
         "Card_Subtext":"Static Allocation occurs automatically and stores memory on the stack while Dynamic Allocation is done manually and uses the heap.",
         "Card_Image":"DynamicVsStaticMemoryAllocation.png",
         "Subheadings":[
@@ -23,7 +25,9 @@
             {"Title":"Practice"}
         ]
     },
-    {"Card_Title": "Memory Layout and C Pointers",
+
+    {
+        "Card_Title": "Memory Layout and C Pointers",
         "Card_Subtext":"A pointer is a variable that stores the address of another variable. Under the hood of the computer, understanding the memory layout when using pointers is crucial.",
         "Card_Image":"MemoryLayoutAndCPointers.png",
         "Subheadings":[
@@ -44,7 +48,8 @@
             {"Title":"Practice"}
         ]   
     },
-    {"Card_Title": "Recursion and Dynamic Programming",
+    {   "ID":"recursion",
+        "Card_Title": "Recursion and Dynamic Programming",
         "Card_Subtext":"Recursion is a method that solves problems by breaking into smaller solutions of itself. A recursive function calls itself internally, and uses a base case.",
         "Card_Image":"RecursionAndDynamicProgramming.png",
         "Subheadings":[

@@ -14,7 +14,9 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	</head>
+	{%block formatlearn%}
+	{%endblock%}	
+</head>
 
 	<body>
 	<!-- Navbar with search facility-->
@@ -49,8 +51,9 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
-	        	<li class="nav-item active"><a href=/ class="nav-link">Home</a></li>
-	            <li class="nav-item"><a href=contact class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href=/ class="nav-link">Home</a></li>
+	            <li class="nav-item"><a href="{{url_for('contact')}}" class="nav-link">Contact</a></li>
+				<li class="nav-item"><a href="{{url_for('admin')}}" class="nav-link">Admin</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -61,7 +64,9 @@
 	<!-- Topics -->
 	<section id="team" class="pb-5">
 	    <div class="container">
-	        <center><h5 class="section-title h1">TOPICS</h5>
+			{%block learn%}{%endblock%}
+	        <center>
+			<div>{%block content%}{%endblock%}</div>
 	        <div class="row">
 	        	{% for card in chapters %}
 	            <!-- Topic-->
@@ -83,9 +88,12 @@
 	                                    <p class="card-text">{{card.Card_Subtext}}</p>
 	                                    	<p class="list-inline">
 	                                    	{% for tag in card.Subheadings %}
-	    											<a href="#" class="btn-xs btn-primary rounded"> {{tag.Title}} </a> <a> </a>
+											<ul class="list-group list-group-flush">
+												<li class="list-group-item">{{tag.Title}}</li>
+											  </ul>
 	    									{% endfor %}
 	    									</p>
+											<a class="learn_page_link" href="{{url_for('learn', ID = card.ID)}}" ><button type="button" class="btn btn-secondary"> Learn Chapter </button></a>
 	                                </div>
 	                            </div>
 	                        </div>
